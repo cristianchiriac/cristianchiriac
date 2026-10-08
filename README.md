@@ -68,7 +68,11 @@ Each PR below links directly to the upstream merge on GitHub.
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=cristianchiriac&theme=github-dark&hide_border=true&area=true"/>
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cristianchiriac&theme=github_dark"/>
+
+<br>
+
+[**View full contribution activity on GitHub →**](https://github.com/cristianchiriac?tab=overview&from=2026-01-01&to=2026-12-31)
 
 </div>
 
