@@ -18,6 +18,8 @@ Cybersecurity engineer focused on defensive security, threat hunting, detection 
 
 I work on understanding attacker behavior, making security telemetry actionable, and strengthening tools that defenders rely on.
 
+**ORCID:** [0009-0006-0583-046X](https://orcid.org/0009-0006-0583-046X)
+
 ## Selected Security Contributions
 
 - **[SigmaHQ / pySigma](https://github.com/SigmaHQ/pySigma)** — parsing, correlation handling, and robust Sigma rule processing.
