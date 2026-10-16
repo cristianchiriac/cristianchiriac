@@ -32,17 +32,19 @@ I work on understanding attacker behavior, making security telemetry actionable,
 ## Open Source Contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**50 merged pull requests across 42 independent upstream repositories.**
+**54 merged pull requests across 44 independent upstream repositories.**
 
 Every linked PR was merged in the upstream project; open or closed-unmerged PRs are not included.
 
 | Upstream repository | Most recent merged change | Merged PRs |
 |---|---|---|
 | [SigmaHQ/pySigma](https://github.com/SigmaHQ/pySigma) | fix: compile \|re values with the rule's policy | [#585](https://github.com/SigmaHQ/pySigma/pull/585) · [#545](https://github.com/SigmaHQ/pySigma/pull/545) · [#544](https://github.com/SigmaHQ/pySigma/pull/544) · [#542](https://github.com/SigmaHQ/pySigma/pull/542) · [#541](https://github.com/SigmaHQ/pySigma/pull/541) |
+| [firewalla/firewalla](https://github.com/firewalla/firewalla) | Unenforce the per-rule sets of a global domain rule with ipttl | [#9954](https://github.com/firewalla/firewalla/pull/9954) · [#9953](https://github.com/firewalla/firewalla/pull/9953) · [#9910](https://github.com/firewalla/firewalla/pull/9910) · [#9909](https://github.com/firewalla/firewalla/pull/9909) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
-| [firewalla/firewalla](https://github.com/firewalla/firewalla) | Normalize exception duration to a number | [#9910](https://github.com/firewalla/firewalla/pull/9910) · [#9909](https://github.com/firewalla/firewalla/pull/9909) |
 | [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | fix: support steps with several columns in get_dataframe_report() | [#444](https://github.com/posit-dev/pointblank/pull/444) · [#445](https://github.com/posit-dev/pointblank/pull/445) |
 | [Velocidex/velociraptor](https://github.com/Velocidex/velociraptor) | Replace revoked ATT&CK technique IDs in artifacts | [#5047](https://github.com/Velocidex/velociraptor/pull/5047) · [#5016](https://github.com/Velocidex/velociraptor/pull/5016) |
+| [Flexget/Flexget](https://github.com/Flexget/Flexget) | Read the transmission-rpc version once at import | [#5263](https://github.com/Flexget/Flexget/pull/5263) |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | fix(cli): set SPT_NOENV only on Linux | [#6232](https://github.com/HKUDS/nanobot/pull/6232) |
 | [lingui/swc-plugin](https://github.com/lingui/swc-plugin) | fix: transform a useLingui `t` nested in a placeholder of another `t` | [#285](https://github.com/lingui/swc-plugin/pull/285) |
 | [OHF-Voice/wyoming-faster-whisper](https://github.com/OHF-Voice/wyoming-faster-whisper) | Constrain PyAV below 19 until faster-whisper supports it | [#130](https://github.com/OHF-Voice/wyoming-faster-whisper/pull/130) |
 | [unitaryai/detoxify](https://github.com/unitaryai/detoxify) | Drop pytest-flake8 from test requirements to fix CI on pytest 9 | [#137](https://github.com/unitaryai/detoxify/pull/137) |
@@ -81,7 +83,7 @@ Every linked PR was merged in the upstream project; open or closed-unmerged PRs 
 | [SigmaHQ/pySigma-backend-splunk](https://github.com/SigmaHQ/pySigma-backend-splunk) | fix: OR/AND precedence inversion widens emitted queries in SPL and SPL2 backends | [#77](https://github.com/SigmaHQ/pySigma-backend-splunk/pull/77) |
 | [benmoran56/esper](https://github.com/benmoran56/esper) | Fix _get_components() dropping a filter type when the min-size set changes twice | [#124](https://github.com/benmoran56/esper/pull/124) |
 
-*Latest confirmed merge: 2026-10-15 (UTC).*
+*Latest confirmed merge: 2026-10-16 (UTC).*
 
 [**View all merged pull requests on GitHub →**](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
