@@ -121,12 +121,15 @@ def render(items: list[dict]) -> str:
         raise RuntimeError("No external merged PRs: refusing to replace existing profile")
 
     lines = [
-        f"**{count} merged pull requests across {len(ordered)} independent upstream repositories.**",
+        f"**{count} accepted pull requests** across **{len(ordered)} independent upstream repositories**.",
         "",
-        "Every linked PR was merged in the upstream project; open or closed-unmerged PRs are not included.",
+        "Every PR below is merged into the upstream project, not merely submitted from a fork.",
         "",
-        "| Upstream repository | Most recent merged change | Merged PRs |",
-        "|---|---|---|",
+        "<details>",
+        f"<summary><strong>Explore the complete contribution log</strong> — {count} merged PRs / {len(ordered)} repositories</summary>",
+        "",
+        "| Upstream | Latest merged change | Accepted PRs |",
+        "|:--|:--|:--|",
     ]
     for repo, prs in ordered:
         links = " · ".join(f"[#{p['number']}]({p['url']})" for p in prs)
@@ -136,9 +139,11 @@ def render(items: list[dict]) -> str:
         )
     lines += [
         "",
-        f"*Latest confirmed merge: {latest[:10]} (UTC).*",
+        "</details>",
         "",
-        f"[**View all merged pull requests on GitHub →**]({HISTORY_URL})",
+        f"<sub>Maintained automatically from verified GitHub merges. Latest: {latest[:10]} (UTC). Open and closed-unmerged PRs are excluded.</sub>",
+        "",
+        f"[**View the complete upstream history ↗**]({HISTORY_URL})",
     ]
     return "\n".join(lines)
 
