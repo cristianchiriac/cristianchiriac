@@ -32,7 +32,7 @@ I work on understanding attacker behavior, making security telemetry actionable,
 ## Open Source Contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**54 merged pull requests across 44 independent upstream repositories.**
+**56 merged pull requests across 46 independent upstream repositories.**
 
 Every linked PR was merged in the upstream project; open or closed-unmerged PRs are not included.
 
@@ -43,6 +43,8 @@ Every linked PR was merged in the upstream project; open or closed-unmerged PRs 
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
 | [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | fix: support steps with several columns in get_dataframe_report() | [#444](https://github.com/posit-dev/pointblank/pull/444) · [#445](https://github.com/posit-dev/pointblank/pull/445) |
 | [Velocidex/velociraptor](https://github.com/Velocidex/velociraptor) | Replace revoked ATT&CK technique IDs in artifacts | [#5047](https://github.com/Velocidex/velociraptor/pull/5047) · [#5016](https://github.com/Velocidex/velociraptor/pull/5016) |
+| [kucherenko/jscpd](https://github.com/kucherenko/jscpd) | fix(semantic): count a JSX element of a component as a call | [#1211](https://github.com/kucherenko/jscpd/pull/1211) |
+| [atuinsh/atuin](https://github.com/atuinsh/atuin) | fix(config): let ATUIN_* environment variables override config.toml | [#4438](https://github.com/atuinsh/atuin/pull/4438) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Read the transmission-rpc version once at import | [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | fix(cli): set SPT_NOENV only on Linux | [#6232](https://github.com/HKUDS/nanobot/pull/6232) |
 | [lingui/swc-plugin](https://github.com/lingui/swc-plugin) | fix: transform a useLingui `t` nested in a placeholder of another `t` | [#285](https://github.com/lingui/swc-plugin/pull/285) |
@@ -83,7 +85,7 @@ Every linked PR was merged in the upstream project; open or closed-unmerged PRs 
 | [SigmaHQ/pySigma-backend-splunk](https://github.com/SigmaHQ/pySigma-backend-splunk) | fix: OR/AND precedence inversion widens emitted queries in SPL and SPL2 backends | [#77](https://github.com/SigmaHQ/pySigma-backend-splunk/pull/77) |
 | [benmoran56/esper](https://github.com/benmoran56/esper) | Fix _get_components() dropping a filter type when the min-size set changes twice | [#124](https://github.com/benmoran56/esper/pull/124) |
 
-*Latest confirmed merge: 2026-10-16 (UTC).*
+*Latest confirmed merge: 2026-10-17 (UTC).*
 
 [**View all merged pull requests on GitHub →**](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
