@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**91 accepted pull requests** across **68 independent upstream repositories**.
+**95 accepted pull requests** across **72 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 91 merged PRs / 68 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 95 merged PRs / 72 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -64,6 +64,10 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
+| [python/typeshed](https://github.com/python/typeshed) | [networkx] Accept any node type in graph functions that took Graph[Hashable] | [#16557](https://github.com/python/typeshed/pull/16557) |
+| [SumoLogic/pySigma-backend-sumologic](https://github.com/SumoLogic/pySigma-backend-sumologic) | Fix cse_rule output format | [#16](https://github.com/SumoLogic/pySigma-backend-sumologic/pull/16) |
+| [ipython/ipython](https://github.com/ipython/ipython) | Install ipykernel test requirements from its dependency group in downstream CI | [#15418](https://github.com/ipython/ipython/pull/15418) |
+| [typstyle-rs/typstyle](https://github.com/typstyle-rs/typstyle) | fix: parse enum marker numbers as u64 | [#520](https://github.com/typstyle-rs/typstyle/pull/520) |
 | [arviz-devs/arviz-stats](https://github.com/arviz-devs/arviz-stats) | Reduce MAD over sample_dims in summary median kinds | [#496](https://github.com/arviz-devs/arviz-stats/pull/496) |
 | [mui/base-ui](https://github.com/mui/base-ui) | [popover] Keep focus that moved elsewhere before the deferred focus restore | [#6015](https://github.com/mui/base-ui/pull/6015) |
 | [komari-monitor/komari](https://github.com/komari-monitor/komari) | fix(metricstore): give the ping queue its own capacity | [#695](https://github.com/komari-monitor/komari/pull/695) |
