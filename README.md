@@ -43,27 +43,31 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**95 accepted pull requests** across **72 independent upstream repositories**.
+**101 accepted pull requests** across **74 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 95 merged PRs / 72 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 101 merged PRs / 74 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
 | [firewalla/firewalla](https://github.com/firewalla/firewalla) | Keep the ipv4 entries of hostsdb in sync on Host:Updated | [#9959](https://github.com/firewalla/firewalla/pull/9959) · [#9954](https://github.com/firewalla/firewalla/pull/9954) · [#9953](https://github.com/firewalla/firewalla/pull/9953) · [#9910](https://github.com/firewalla/firewalla/pull/9910) · [#9909](https://github.com/firewalla/firewalla/pull/9909) |
 | [SigmaHQ/pySigma](https://github.com/SigmaHQ/pySigma) | fix: compile \|re values with the rule's policy | [#585](https://github.com/SigmaHQ/pySigma/pull/585) · [#545](https://github.com/SigmaHQ/pySigma/pull/545) · [#544](https://github.com/SigmaHQ/pySigma/pull/544) · [#542](https://github.com/SigmaHQ/pySigma/pull/542) · [#541](https://github.com/SigmaHQ/pySigma/pull/541) |
+| [strictdoc-project/strictdoc](https://github.com/strictdoc-project/strictdoc) | fix(traceability_matrix): skip included documents when listing nodes | [#3255](https://github.com/strictdoc-project/strictdoc/pull/3255) · [#3256](https://github.com/strictdoc-project/strictdoc/pull/3256) · [#3243](https://github.com/strictdoc-project/strictdoc/pull/3243) · [#3244](https://github.com/strictdoc-project/strictdoc/pull/3244) |
 | [caronc/apprise](https://github.com/caronc/apprise) | Keep cc/bcc/reply display names intact in email url() | [#1812](https://github.com/caronc/apprise/pull/1812) · [#1813](https://github.com/caronc/apprise/pull/1813) · [#1807](https://github.com/caronc/apprise/pull/1807) · [#1808](https://github.com/caronc/apprise/pull/1808) |
 | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) | al2023: map CIS 4.3.4 to sudo_remove_no_authenticate | [#15167](https://github.com/ComplianceAsCode/content/pull/15167) · [#15165](https://github.com/ComplianceAsCode/content/pull/15165) · [#15164](https://github.com/ComplianceAsCode/content/pull/15164) |
 | [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | fix: explain why col_summary_tbl() fails when no column can be profiled | [#469](https://github.com/posit-dev/pointblank/pull/469) · [#444](https://github.com/posit-dev/pointblank/pull/444) · [#445](https://github.com/posit-dev/pointblank/pull/445) |
 | [Velocidex/velociraptor](https://github.com/Velocidex/velociraptor) | Fix the repeat button in the VQL shell | [#5086](https://github.com/Velocidex/velociraptor/pull/5086) · [#5047](https://github.com/Velocidex/velociraptor/pull/5047) · [#5016](https://github.com/Velocidex/velociraptor/pull/5016) |
+| [yukinarit/pyserde](https://github.com/yukinarit/pyserde) | Reject non-mapping input when deserializing a dataclass from dict | [#815](https://github.com/yukinarit/pyserde/pull/815) · [#812](https://github.com/yukinarit/pyserde/pull/812) |
+| [yomidevs/yomitan](https://github.com/yomidevs/yomitan) | Ignore leading whitespace when looking up search queries | [#2506](https://github.com/yomidevs/yomitan/pull/2506) · [#2504](https://github.com/yomidevs/yomitan/pull/2504) |
 | [henriquesebastiao/downtify](https://github.com/henriquesebastiao/downtify) | Match titles with a dash against candidates with a feat. suffix | [#435](https://github.com/henriquesebastiao/downtify/pull/435) · [#434](https://github.com/henriquesebastiao/downtify/pull/434) |
-| [strictdoc-project/strictdoc](https://github.com/strictdoc-project/strictdoc) | fix(backend/reqif): import Parent relations between different node types | [#3243](https://github.com/strictdoc-project/strictdoc/pull/3243) · [#3244](https://github.com/strictdoc-project/strictdoc/pull/3244) |
 | [ydkhatri/mac_apt](https://github.com/ydkhatri/mac_apt) | Declare the BIOME Data column as text | [#175](https://github.com/ydkhatri/mac_apt/pull/175) · [#176](https://github.com/ydkhatri/mac_apt/pull/176) |
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
+| [abravalheri/validate-pyproject](https://github.com/abravalheri/validate-pyproject) | Drop leftover Cirrus CI config and fix the linkcheck job | [#335](https://github.com/abravalheri/validate-pyproject/pull/335) |
+| [RDFLib/rdflib](https://github.com/RDFLib/rdflib) | fix: longturtle canon=True raised ValueError for a Dataset | [#3584](https://github.com/RDFLib/rdflib/pull/3584) |
 | [python/typeshed](https://github.com/python/typeshed) | [networkx] Accept any node type in graph functions that took Graph[Hashable] | [#16557](https://github.com/python/typeshed/pull/16557) |
 | [SumoLogic/pySigma-backend-sumologic](https://github.com/SumoLogic/pySigma-backend-sumologic) | Fix cse_rule output format | [#16](https://github.com/SumoLogic/pySigma-backend-sumologic/pull/16) |
 | [ipython/ipython](https://github.com/ipython/ipython) | Install ipykernel test requirements from its dependency group in downstream CI | [#15418](https://github.com/ipython/ipython/pull/15418) |
@@ -74,13 +78,11 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [fedora-infra/anitya](https://github.com/fedora-infra/anitya) | Use re.error instead of sre_constants.error (Python 3.15) | [#2130](https://github.com/fedora-infra/anitya/pull/2130) |
 | [quasarframework/quasar](https://github.com/quasarframework/quasar) | fix(ui): compare the hash route path when releasing the iOS scroll lock #18573 | [#18574](https://github.com/quasarframework/quasar/pull/18574) |
 | [falcosecurity/falco](https://github.com/falcosecurity/falco) | fix(userspace/falco): recover file_output from a failed write | [#4036](https://github.com/falcosecurity/falco/pull/4036) |
-| [yukinarit/pyserde](https://github.com/yukinarit/pyserde) | Support Python 3.15: use dataclasses.MISSING instead of _MISSING_TYPE | [#812](https://github.com/yukinarit/pyserde/pull/812) |
 | [BottlecapDave/HomeAssistant-OctopusEnergy](https://github.com/BottlecapDave/HomeAssistant-OctopusEnergy) | fix: Default "favour direct debit rates" to on when adding an account | [#1918](https://github.com/BottlecapDave/HomeAssistant-OctopusEnergy/pull/1918) |
 | [Koenkk/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) | fix: Look up the endpoint name of a group member to check its state | [#33410](https://github.com/Koenkk/zigbee2mqtt/pull/33410) |
 | [eugenioenko/ttt](https://github.com/eugenioenko/ttt) | fix(search): clear find highlights when closing find on a content tab | [#950](https://github.com/eugenioenko/ttt/pull/950) |
 | [getsentry/spotlight](https://github.com/getsentry/spotlight) | fix(dev): Run the sidecar with --experimental-strip-types for Node 26 | [#1364](https://github.com/getsentry/spotlight/pull/1364) |
 | [Hexagon/croner](https://github.com/Hexagon/croner) | Fix previousRuns() for months shorter than 31 days | [#409](https://github.com/Hexagon/croner/pull/409) |
-| [yomidevs/yomitan](https://github.com/yomidevs/yomitan) | Add CJK Unified Ideographs Extension J to the CJK ranges | [#2504](https://github.com/yomidevs/yomitan/pull/2504) |
 | [marcosschroh/dataclasses-avroschema](https://github.com/marcosschroh/dataclasses-avroschema) | fix: compare union defaults with dataclasses.MISSING (Python 3.15) | [#984](https://github.com/marcosschroh/dataclasses-avroschema/pull/984) |
 | [florianfesti/boxes](https://github.com/florianfesti/boxes) | TrayLayout: accept the escaped layout from the SVG command line | [#977](https://github.com/florianfesti/boxes/pull/977) |
 | [callowayproject/bump-my-version](https://github.com/callowayproject/bump-my-version) | Keep the repository root when HEAD is detached | [#439](https://github.com/callowayproject/bump-my-version/pull/439) |
@@ -127,7 +129,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 
 </details>
 
-<sub>Maintained automatically from verified GitHub merges. Latest: 2026-10-20 (UTC). Open and closed-unmerged PRs are excluded.</sub>
+<sub>Maintained automatically from verified GitHub merges. Latest: 2026-10-22 (UTC). Open and closed-unmerged PRs are excluded.</sub>
 
 [**View the complete upstream history ↗**](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
