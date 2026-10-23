@@ -43,22 +43,25 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**101 accepted pull requests** across **74 independent upstream repositories**.
+**108 accepted pull requests** across **76 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 101 merged PRs / 74 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 108 merged PRs / 76 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
+| [Velocidex/velociraptor](https://github.com/Velocidex/velociraptor) | Windows.System.Pslist: use the tracker's StartTime as CreateTime | [#5075](https://github.com/Velocidex/velociraptor/pull/5075) · [#5095](https://github.com/Velocidex/velociraptor/pull/5095) · [#5086](https://github.com/Velocidex/velociraptor/pull/5086) · [#5047](https://github.com/Velocidex/velociraptor/pull/5047) · [#5016](https://github.com/Velocidex/velociraptor/pull/5016) |
 | [firewalla/firewalla](https://github.com/firewalla/firewalla) | Keep the ipv4 entries of hostsdb in sync on Host:Updated | [#9959](https://github.com/firewalla/firewalla/pull/9959) · [#9954](https://github.com/firewalla/firewalla/pull/9954) · [#9953](https://github.com/firewalla/firewalla/pull/9953) · [#9910](https://github.com/firewalla/firewalla/pull/9910) · [#9909](https://github.com/firewalla/firewalla/pull/9909) |
 | [SigmaHQ/pySigma](https://github.com/SigmaHQ/pySigma) | fix: compile \|re values with the rule's policy | [#585](https://github.com/SigmaHQ/pySigma/pull/585) · [#545](https://github.com/SigmaHQ/pySigma/pull/545) · [#544](https://github.com/SigmaHQ/pySigma/pull/544) · [#542](https://github.com/SigmaHQ/pySigma/pull/542) · [#541](https://github.com/SigmaHQ/pySigma/pull/541) |
 | [strictdoc-project/strictdoc](https://github.com/strictdoc-project/strictdoc) | fix(traceability_matrix): skip included documents when listing nodes | [#3255](https://github.com/strictdoc-project/strictdoc/pull/3255) · [#3256](https://github.com/strictdoc-project/strictdoc/pull/3256) · [#3243](https://github.com/strictdoc-project/strictdoc/pull/3243) · [#3244](https://github.com/strictdoc-project/strictdoc/pull/3244) |
 | [caronc/apprise](https://github.com/caronc/apprise) | Keep cc/bcc/reply display names intact in email url() | [#1812](https://github.com/caronc/apprise/pull/1812) · [#1813](https://github.com/caronc/apprise/pull/1813) · [#1807](https://github.com/caronc/apprise/pull/1807) · [#1808](https://github.com/caronc/apprise/pull/1808) |
 | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) | al2023: map CIS 4.3.4 to sudo_remove_no_authenticate | [#15167](https://github.com/ComplianceAsCode/content/pull/15167) · [#15165](https://github.com/ComplianceAsCode/content/pull/15165) · [#15164](https://github.com/ComplianceAsCode/content/pull/15164) |
 | [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | fix: explain why col_summary_tbl() fails when no column can be profiled | [#469](https://github.com/posit-dev/pointblank/pull/469) · [#444](https://github.com/posit-dev/pointblank/pull/444) · [#445](https://github.com/posit-dev/pointblank/pull/445) |
-| [Velocidex/velociraptor](https://github.com/Velocidex/velociraptor) | Fix the repeat button in the VQL shell | [#5086](https://github.com/Velocidex/velociraptor/pull/5086) · [#5047](https://github.com/Velocidex/velociraptor/pull/5047) · [#5016](https://github.com/Velocidex/velociraptor/pull/5016) |
+| [SigmaHQ/pySigma-backend-elasticsearch](https://github.com/SigmaHQ/pySigma-backend-elasticsearch) | fix: strip empty "by with runs=N" from EQL temporal_ordered queries | [#231](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/231) · [#230](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/230) |
+| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | test(codeowners): count materialized skill entrypoints as links to the router | [#5626](https://github.com/career-ops-hq/career-ops/pull/5626) · [#5051](https://github.com/career-ops-hq/career-ops/pull/5051) |
+| [kaixxx/noScribe](https://github.com/kaixxx/noScribe) | Keep the translation folder valid for keys i18n loads later | [#374](https://github.com/kaixxx/noScribe/pull/374) · [#367](https://github.com/kaixxx/noScribe/pull/367) |
 | [yukinarit/pyserde](https://github.com/yukinarit/pyserde) | Reject non-mapping input when deserializing a dataclass from dict | [#815](https://github.com/yukinarit/pyserde/pull/815) · [#812](https://github.com/yukinarit/pyserde/pull/812) |
 | [yomidevs/yomitan](https://github.com/yomidevs/yomitan) | Ignore leading whitespace when looking up search queries | [#2506](https://github.com/yomidevs/yomitan/pull/2506) · [#2504](https://github.com/yomidevs/yomitan/pull/2504) |
 | [henriquesebastiao/downtify](https://github.com/henriquesebastiao/downtify) | Match titles with a dash against candidates with a feat. suffix | [#435](https://github.com/henriquesebastiao/downtify/pull/435) · [#434](https://github.com/henriquesebastiao/downtify/pull/434) |
@@ -66,6 +69,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
+| [pythermalcomfort/pythermalcomfort](https://github.com/pythermalcomfort/pythermalcomfort) | fix(jos3): add a t_core setter | [#485](https://github.com/pythermalcomfort/pythermalcomfort/pull/485) |
 | [abravalheri/validate-pyproject](https://github.com/abravalheri/validate-pyproject) | Drop leftover Cirrus CI config and fix the linkcheck job | [#335](https://github.com/abravalheri/validate-pyproject/pull/335) |
 | [RDFLib/rdflib](https://github.com/RDFLib/rdflib) | fix: longturtle canon=True raised ValueError for a Dataset | [#3584](https://github.com/RDFLib/rdflib/pull/3584) |
 | [python/typeshed](https://github.com/python/typeshed) | [networkx] Accept any node type in graph functions that took Graph[Hashable] | [#16557](https://github.com/python/typeshed/pull/16557) |
@@ -102,7 +106,6 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [nuxt/ui](https://github.com/nuxt/ui) | perf(useComponentProps): skip prop resolution for Vue internal flags | [#7186](https://github.com/nuxt/ui/pull/7186) |
 | [boa-dev/boa](https://github.com/boa-dev/boa) | fix(engine): accept lone surrogate escapes in JSON.parse | [#5578](https://github.com/boa-dev/boa/pull/5578) |
 | [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) | Add an opt-in --torch_num_threads setting for PyTorch CPU threads | [#707](https://github.com/huggingface/speech-to-speech/pull/707) |
-| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | fix(batch): give node a Windows path for PROJECT_DIR under Git Bash | [#5051](https://github.com/career-ops-hq/career-ops/pull/5051) |
 | [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | fonts: find CJK fonts on Windows, allow a GEO_FONT override | [#13](https://github.com/Oldcircle/geo-sleuth/pull/13) |
 | [volatilityfoundation/volatility3](https://github.com/volatilityfoundation/volatility3) | Windows: Raise TypeError instead of a bare raise in virtmap and crashinfo | [#2035](https://github.com/volatilityfoundation/volatility3/pull/2035) |
 | [NetroScript/Graveyard-Keeper-Savefile-Editor](https://github.com/NetroScript/Graveyard-Keeper-Savefile-Editor) | Read the Eel version with importlib.metadata (fixes #106) | [#107](https://github.com/NetroScript/Graveyard-Keeper-Savefile-Editor/pull/107) |
@@ -117,7 +120,6 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Constrain PyAV below 19 in requirements.txt | [#1582](https://github.com/harry0703/MoneyPrinterTurbo/pull/1582) |
 | [Kometa-Team/Kometa](https://github.com/Kometa-Team/Kometa) | Report failed Apprise notifications with Apprise 2 | [#3690](https://github.com/Kometa-Team/Kometa/pull/3690) |
 | [wayne-csrs/pySigma-backend-signals](https://github.com/wayne-csrs/pySigma-backend-signals) | fix: keep correlation event_type unquoted with pySigma &gt;= 1.5.1 | [#9](https://github.com/wayne-csrs/pySigma-backend-signals/pull/9) |
-| [kaixxx/noScribe](https://github.com/kaixxx/noScribe) | Pin PyAV below 19 until faster-whisper supports it | [#367](https://github.com/kaixxx/noScribe/pull/367) |
 | [ipython/ipykernel](https://github.com/ipython/ipykernel) | Update README install command for the test dependency group | [#1573](https://github.com/ipython/ipykernel/pull/1573) |
 | [Softcatala/whisper-ctranslate2](https://github.com/Softcatala/whisper-ctranslate2) | Constrain PyAV below 19 in the package requirements | [#154](https://github.com/Softcatala/whisper-ctranslate2/pull/154) |
 | [nornir-automation/nornir](https://github.com/nornir-automation/nornir) | Deprecate legacy Jinja2 rendering helpers | [#1103](https://github.com/nornir-automation/nornir/pull/1103) |
@@ -129,7 +131,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 
 </details>
 
-<sub>Maintained automatically from verified GitHub merges. Latest: 2026-10-22 (UTC). Open and closed-unmerged PRs are excluded.</sub>
+<sub>Maintained automatically from verified GitHub merges. Latest: 2026-10-23 (UTC). Open and closed-unmerged PRs are excluded.</sub>
 
 [**View the complete upstream history ↗**](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
