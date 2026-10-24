@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**108 accepted pull requests** across **76 independent upstream repositories**.
+**113 accepted pull requests** across **80 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 108 merged PRs / 76 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 113 merged PRs / 80 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -59,6 +59,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [caronc/apprise](https://github.com/caronc/apprise) | Keep cc/bcc/reply display names intact in email url() | [#1812](https://github.com/caronc/apprise/pull/1812) · [#1813](https://github.com/caronc/apprise/pull/1813) · [#1807](https://github.com/caronc/apprise/pull/1807) · [#1808](https://github.com/caronc/apprise/pull/1808) |
 | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) | al2023: map CIS 4.3.4 to sudo_remove_no_authenticate | [#15167](https://github.com/ComplianceAsCode/content/pull/15167) · [#15165](https://github.com/ComplianceAsCode/content/pull/15165) · [#15164](https://github.com/ComplianceAsCode/content/pull/15164) |
 | [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | fix: explain why col_summary_tbl() fails when no column can be profiled | [#469](https://github.com/posit-dev/pointblank/pull/469) · [#444](https://github.com/posit-dev/pointblank/pull/444) · [#445](https://github.com/posit-dev/pointblank/pull/445) |
+| [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | fix(ui): show the line breaks of data-html popovers as text | [#16395](https://github.com/DefectDojo/django-DefectDojo/pull/16395) · [#16014](https://github.com/DefectDojo/django-DefectDojo/pull/16014) |
 | [SigmaHQ/pySigma-backend-elasticsearch](https://github.com/SigmaHQ/pySigma-backend-elasticsearch) | fix: strip empty "by with runs=N" from EQL temporal_ordered queries | [#231](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/231) · [#230](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/230) |
 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | test(codeowners): count materialized skill entrypoints as links to the router | [#5626](https://github.com/career-ops-hq/career-ops/pull/5626) · [#5051](https://github.com/career-ops-hq/career-ops/pull/5051) |
 | [kaixxx/noScribe](https://github.com/kaixxx/noScribe) | Keep the translation folder valid for keys i18n loads later | [#374](https://github.com/kaixxx/noScribe/pull/374) · [#367](https://github.com/kaixxx/noScribe/pull/367) |
@@ -69,6 +70,10 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
+| [oauthlib/oauthlib](https://github.com/oauthlib/oauthlib) | Dispatch reordered response_type values to the registered handler | [#987](https://github.com/oauthlib/oauthlib/pull/987) |
+| [JannisX11/blockbench](https://github.com/JannisX11/blockbench) | Fix new mesh faces getting a zero-size UV | [#3830](https://github.com/JannisX11/blockbench/pull/3830) |
+| [latent-spaces/brag](https://github.com/latent-spaces/brag) | docs: quote optional audio map in gallery poster command | [#63](https://github.com/latent-spaces/brag/pull/63) |
+| [franciscoBSalgueiro/en-croissant](https://github.com/franciscoBSalgueiro/en-croissant) | Fix board square of castling moves with check or mate | [#953](https://github.com/franciscoBSalgueiro/en-croissant/pull/953) |
 | [pythermalcomfort/pythermalcomfort](https://github.com/pythermalcomfort/pythermalcomfort) | fix(jos3): add a t_core setter | [#485](https://github.com/pythermalcomfort/pythermalcomfort/pull/485) |
 | [abravalheri/validate-pyproject](https://github.com/abravalheri/validate-pyproject) | Drop leftover Cirrus CI config and fix the linkcheck job | [#335](https://github.com/abravalheri/validate-pyproject/pull/335) |
 | [RDFLib/rdflib](https://github.com/RDFLib/rdflib) | fix: longturtle canon=True raised ValueError for a Dataset | [#3584](https://github.com/RDFLib/rdflib/pull/3584) |
@@ -124,7 +129,6 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [Softcatala/whisper-ctranslate2](https://github.com/Softcatala/whisper-ctranslate2) | Constrain PyAV below 19 in the package requirements | [#154](https://github.com/Softcatala/whisper-ctranslate2/pull/154) |
 | [nornir-automation/nornir](https://github.com/nornir-automation/nornir) | Deprecate legacy Jinja2 rendering helpers | [#1103](https://github.com/nornir-automation/nornir/pull/1103) |
 | [logpoint/pySigma-backend-logpoint](https://github.com/logpoint/pySigma-backend-logpoint) | Fix AttributeError for numeric pipeline pre-filter values | [#38](https://github.com/logpoint/pySigma-backend-logpoint/pull/38) |
-| [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | fix(govulncheck): don't crash on OSV entries without aliases | [#16014](https://github.com/DefectDojo/django-DefectDojo/pull/16014) |
 | [SigmaHQ/pySigma-backend-crowdstrike](https://github.com/SigmaHQ/pySigma-backend-crowdstrike) | fix: OR nested inside AND was not parenthesized, widening the emitted query | [#25](https://github.com/SigmaHQ/pySigma-backend-crowdstrike/pull/25) |
 | [SigmaHQ/pySigma-backend-splunk](https://github.com/SigmaHQ/pySigma-backend-splunk) | fix: OR/AND precedence inversion widens emitted queries in SPL and SPL2 backends | [#77](https://github.com/SigmaHQ/pySigma-backend-splunk/pull/77) |
 | [benmoran56/esper](https://github.com/benmoran56/esper) | Fix _get_components() dropping a filter type when the min-size set changes twice | [#124](https://github.com/benmoran56/esper/pull/124) |
