@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**113 accepted pull requests** across **80 independent upstream repositories**.
+**120 accepted pull requests** across **81 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 113 merged PRs / 80 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 120 merged PRs / 81 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -57,8 +57,12 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [SigmaHQ/pySigma](https://github.com/SigmaHQ/pySigma) | fix: compile \|re values with the rule's policy | [#585](https://github.com/SigmaHQ/pySigma/pull/585) · [#545](https://github.com/SigmaHQ/pySigma/pull/545) · [#544](https://github.com/SigmaHQ/pySigma/pull/544) · [#542](https://github.com/SigmaHQ/pySigma/pull/542) · [#541](https://github.com/SigmaHQ/pySigma/pull/541) |
 | [strictdoc-project/strictdoc](https://github.com/strictdoc-project/strictdoc) | fix(traceability_matrix): skip included documents when listing nodes | [#3255](https://github.com/strictdoc-project/strictdoc/pull/3255) · [#3256](https://github.com/strictdoc-project/strictdoc/pull/3256) · [#3243](https://github.com/strictdoc-project/strictdoc/pull/3243) · [#3244](https://github.com/strictdoc-project/strictdoc/pull/3244) |
 | [caronc/apprise](https://github.com/caronc/apprise) | Keep cc/bcc/reply display names intact in email url() | [#1812](https://github.com/caronc/apprise/pull/1812) · [#1813](https://github.com/caronc/apprise/pull/1813) · [#1807](https://github.com/caronc/apprise/pull/1807) · [#1808](https://github.com/caronc/apprise/pull/1808) |
+| [callowayproject/bump-my-version](https://github.com/callowayproject/bump-my-version) | fix: don't enable pip caching in the GitHub Action | [#447](https://github.com/callowayproject/bump-my-version/pull/447) · [#448](https://github.com/callowayproject/bump-my-version/pull/448) · [#439](https://github.com/callowayproject/bump-my-version/pull/439) |
+| [eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) | Upload media files of rich messages | [#2640](https://github.com/eternnoir/pyTelegramBotAPI/pull/2640) · [#2639](https://github.com/eternnoir/pyTelegramBotAPI/pull/2639) · [#2635](https://github.com/eternnoir/pyTelegramBotAPI/pull/2635) |
 | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) | al2023: map CIS 4.3.4 to sudo_remove_no_authenticate | [#15167](https://github.com/ComplianceAsCode/content/pull/15167) · [#15165](https://github.com/ComplianceAsCode/content/pull/15165) · [#15164](https://github.com/ComplianceAsCode/content/pull/15164) |
 | [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | fix: explain why col_summary_tbl() fails when no column can be profiled | [#469](https://github.com/posit-dev/pointblank/pull/469) · [#444](https://github.com/posit-dev/pointblank/pull/444) · [#445](https://github.com/posit-dev/pointblank/pull/445) |
+| [Koenkk/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) | fix(homeassistant): Use state_value_template for a switch overridden to a light | [#33412](https://github.com/Koenkk/zigbee2mqtt/pull/33412) · [#33410](https://github.com/Koenkk/zigbee2mqtt/pull/33410) |
+| [firecow/gitlab-ci-local](https://github.com/firecow/gitlab-ci-local) | fix: evaluate spec:inputs:regex with RE2 like GitLab | [#1974](https://github.com/firecow/gitlab-ci-local/pull/1974) · [#1975](https://github.com/firecow/gitlab-ci-local/pull/1975) |
 | [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | fix(ui): show the line breaks of data-html popovers as text | [#16395](https://github.com/DefectDojo/django-DefectDojo/pull/16395) · [#16014](https://github.com/DefectDojo/django-DefectDojo/pull/16014) |
 | [SigmaHQ/pySigma-backend-elasticsearch](https://github.com/SigmaHQ/pySigma-backend-elasticsearch) | fix: strip empty "by with runs=N" from EQL temporal_ordered queries | [#231](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/231) · [#230](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/230) |
 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | test(codeowners): count materialized skill entrypoints as links to the router | [#5626](https://github.com/career-ops-hq/career-ops/pull/5626) · [#5051](https://github.com/career-ops-hq/career-ops/pull/5051) |
@@ -88,14 +92,11 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [quasarframework/quasar](https://github.com/quasarframework/quasar) | fix(ui): compare the hash route path when releasing the iOS scroll lock #18573 | [#18574](https://github.com/quasarframework/quasar/pull/18574) |
 | [falcosecurity/falco](https://github.com/falcosecurity/falco) | fix(userspace/falco): recover file_output from a failed write | [#4036](https://github.com/falcosecurity/falco/pull/4036) |
 | [BottlecapDave/HomeAssistant-OctopusEnergy](https://github.com/BottlecapDave/HomeAssistant-OctopusEnergy) | fix: Default "favour direct debit rates" to on when adding an account | [#1918](https://github.com/BottlecapDave/HomeAssistant-OctopusEnergy/pull/1918) |
-| [Koenkk/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) | fix: Look up the endpoint name of a group member to check its state | [#33410](https://github.com/Koenkk/zigbee2mqtt/pull/33410) |
 | [eugenioenko/ttt](https://github.com/eugenioenko/ttt) | fix(search): clear find highlights when closing find on a content tab | [#950](https://github.com/eugenioenko/ttt/pull/950) |
 | [getsentry/spotlight](https://github.com/getsentry/spotlight) | fix(dev): Run the sidecar with --experimental-strip-types for Node 26 | [#1364](https://github.com/getsentry/spotlight/pull/1364) |
 | [Hexagon/croner](https://github.com/Hexagon/croner) | Fix previousRuns() for months shorter than 31 days | [#409](https://github.com/Hexagon/croner/pull/409) |
 | [marcosschroh/dataclasses-avroschema](https://github.com/marcosschroh/dataclasses-avroschema) | fix: compare union defaults with dataclasses.MISSING (Python 3.15) | [#984](https://github.com/marcosschroh/dataclasses-avroschema/pull/984) |
 | [florianfesti/boxes](https://github.com/florianfesti/boxes) | TrayLayout: accept the escaped layout from the SVG command line | [#977](https://github.com/florianfesti/boxes/pull/977) |
-| [callowayproject/bump-my-version](https://github.com/callowayproject/bump-my-version) | Keep the repository root when HEAD is detached | [#439](https://github.com/callowayproject/bump-my-version/pull/439) |
-| [eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) | Treat RichText strings as JSON only when they parse to an object | [#2635](https://github.com/eternnoir/pyTelegramBotAPI/pull/2635) |
 | [kucherenko/jscpd](https://github.com/kucherenko/jscpd) | fix(semantic): count a JSX element of a component as a call | [#1211](https://github.com/kucherenko/jscpd/pull/1211) |
 | [atuinsh/atuin](https://github.com/atuinsh/atuin) | fix(config): let ATUIN_* environment variables override config.toml | [#4438](https://github.com/atuinsh/atuin/pull/4438) |
 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | fix(cli): set SPT_NOENV only on Linux | [#6232](https://github.com/HKUDS/nanobot/pull/6232) |
@@ -135,7 +136,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 
 </details>
 
-<sub>Maintained automatically from verified GitHub merges. Latest: 2026-10-23 (UTC). Open and closed-unmerged PRs are excluded.</sub>
+<sub>Maintained automatically from verified GitHub merges. Latest: 2026-10-25 (UTC). Open and closed-unmerged PRs are excluded.</sub>
 
 [**View the complete upstream history ↗**](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
