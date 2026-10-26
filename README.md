@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**120 accepted pull requests** across **81 independent upstream repositories**.
+**123 accepted pull requests** across **82 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 120 merged PRs / 81 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 123 merged PRs / 82 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -57,14 +57,15 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [SigmaHQ/pySigma](https://github.com/SigmaHQ/pySigma) | fix: compile \|re values with the rule's policy | [#585](https://github.com/SigmaHQ/pySigma/pull/585) · [#545](https://github.com/SigmaHQ/pySigma/pull/545) · [#544](https://github.com/SigmaHQ/pySigma/pull/544) · [#542](https://github.com/SigmaHQ/pySigma/pull/542) · [#541](https://github.com/SigmaHQ/pySigma/pull/541) |
 | [strictdoc-project/strictdoc](https://github.com/strictdoc-project/strictdoc) | fix(traceability_matrix): skip included documents when listing nodes | [#3255](https://github.com/strictdoc-project/strictdoc/pull/3255) · [#3256](https://github.com/strictdoc-project/strictdoc/pull/3256) · [#3243](https://github.com/strictdoc-project/strictdoc/pull/3243) · [#3244](https://github.com/strictdoc-project/strictdoc/pull/3244) |
 | [caronc/apprise](https://github.com/caronc/apprise) | Keep cc/bcc/reply display names intact in email url() | [#1812](https://github.com/caronc/apprise/pull/1812) · [#1813](https://github.com/caronc/apprise/pull/1813) · [#1807](https://github.com/caronc/apprise/pull/1807) · [#1808](https://github.com/caronc/apprise/pull/1808) |
+| [SigmaHQ/pySigma-backend-elasticsearch](https://github.com/SigmaHQ/pySigma-backend-elasticsearch) | Support pySigma 2.0 | [#235](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/235) · [#231](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/231) · [#230](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/230) |
 | [callowayproject/bump-my-version](https://github.com/callowayproject/bump-my-version) | fix: don't enable pip caching in the GitHub Action | [#447](https://github.com/callowayproject/bump-my-version/pull/447) · [#448](https://github.com/callowayproject/bump-my-version/pull/448) · [#439](https://github.com/callowayproject/bump-my-version/pull/439) |
 | [eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) | Upload media files of rich messages | [#2640](https://github.com/eternnoir/pyTelegramBotAPI/pull/2640) · [#2639](https://github.com/eternnoir/pyTelegramBotAPI/pull/2639) · [#2635](https://github.com/eternnoir/pyTelegramBotAPI/pull/2635) |
 | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) | al2023: map CIS 4.3.4 to sudo_remove_no_authenticate | [#15167](https://github.com/ComplianceAsCode/content/pull/15167) · [#15165](https://github.com/ComplianceAsCode/content/pull/15165) · [#15164](https://github.com/ComplianceAsCode/content/pull/15164) |
 | [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | fix: explain why col_summary_tbl() fails when no column can be profiled | [#469](https://github.com/posit-dev/pointblank/pull/469) · [#444](https://github.com/posit-dev/pointblank/pull/444) · [#445](https://github.com/posit-dev/pointblank/pull/445) |
+| [yeti-platform/yeti](https://github.com/yeti-platform/yeti) | Reject graph descriptors without an object id | [#1425](https://github.com/yeti-platform/yeti/pull/1425) · [#1408](https://github.com/yeti-platform/yeti/pull/1408) |
 | [Koenkk/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) | fix(homeassistant): Use state_value_template for a switch overridden to a light | [#33412](https://github.com/Koenkk/zigbee2mqtt/pull/33412) · [#33410](https://github.com/Koenkk/zigbee2mqtt/pull/33410) |
 | [firecow/gitlab-ci-local](https://github.com/firecow/gitlab-ci-local) | fix: evaluate spec:inputs:regex with RE2 like GitLab | [#1974](https://github.com/firecow/gitlab-ci-local/pull/1974) · [#1975](https://github.com/firecow/gitlab-ci-local/pull/1975) |
 | [DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | fix(ui): show the line breaks of data-html popovers as text | [#16395](https://github.com/DefectDojo/django-DefectDojo/pull/16395) · [#16014](https://github.com/DefectDojo/django-DefectDojo/pull/16014) |
-| [SigmaHQ/pySigma-backend-elasticsearch](https://github.com/SigmaHQ/pySigma-backend-elasticsearch) | fix: strip empty "by with runs=N" from EQL temporal_ordered queries | [#231](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/231) · [#230](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/230) |
 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | test(codeowners): count materialized skill entrypoints as links to the router | [#5626](https://github.com/career-ops-hq/career-ops/pull/5626) · [#5051](https://github.com/career-ops-hq/career-ops/pull/5051) |
 | [kaixxx/noScribe](https://github.com/kaixxx/noScribe) | Keep the translation folder valid for keys i18n loads later | [#374](https://github.com/kaixxx/noScribe/pull/374) · [#367](https://github.com/kaixxx/noScribe/pull/367) |
 | [yukinarit/pyserde](https://github.com/yukinarit/pyserde) | Reject non-mapping input when deserializing a dataclass from dict | [#815](https://github.com/yukinarit/pyserde/pull/815) · [#812](https://github.com/yukinarit/pyserde/pull/812) |
@@ -74,6 +75,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
+| [kevin1024/vcrpy](https://github.com/kevin1024/vcrpy) | Allow replayed responses to release a connection | [#1054](https://github.com/kevin1024/vcrpy/pull/1054) |
 | [oauthlib/oauthlib](https://github.com/oauthlib/oauthlib) | Dispatch reordered response_type values to the registered handler | [#987](https://github.com/oauthlib/oauthlib/pull/987) |
 | [JannisX11/blockbench](https://github.com/JannisX11/blockbench) | Fix new mesh faces getting a zero-size UV | [#3830](https://github.com/JannisX11/blockbench/pull/3830) |
 | [latent-spaces/brag](https://github.com/latent-spaces/brag) | docs: quote optional audio map in gallery poster command | [#63](https://github.com/latent-spaces/brag/pull/63) |
@@ -122,7 +124,6 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [Kometa-Team/Quickstart](https://github.com/Kometa-Team/Quickstart) | Skip no-commit-to-branch in the Lint workflow | [#1878](https://github.com/Kometa-Team/Quickstart/pull/1878) |
 | [turbot/steampipe-mod-aws-compliance](https://github.com/turbot/steampipe-mod-aws-compliance) | Fix port ranges in vpc_security_group_restricted_common_ports query | [#978](https://github.com/turbot/steampipe-mod-aws-compliance/pull/978) |
 | [arxhr007/Aliens_eye](https://github.com/arxhr007/Aliens_eye) | Use the Lexbor parser of selectolax (fix ImportError with selectolax 1.0) | [#23](https://github.com/arxhr007/Aliens_eye/pull/23) |
-| [yeti-platform/yeti](https://github.com/yeti-platform/yeti) | Install the plugins dependency group in the feed tests workflow | [#1408](https://github.com/yeti-platform/yeti/pull/1408) |
 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Constrain PyAV below 19 in requirements.txt | [#1582](https://github.com/harry0703/MoneyPrinterTurbo/pull/1582) |
 | [Kometa-Team/Kometa](https://github.com/Kometa-Team/Kometa) | Report failed Apprise notifications with Apprise 2 | [#3690](https://github.com/Kometa-Team/Kometa/pull/3690) |
 | [wayne-csrs/pySigma-backend-signals](https://github.com/wayne-csrs/pySigma-backend-signals) | fix: keep correlation event_type unquoted with pySigma &gt;= 1.5.1 | [#9](https://github.com/wayne-csrs/pySigma-backend-signals/pull/9) |
