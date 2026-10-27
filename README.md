@@ -43,15 +43,16 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**123 accepted pull requests** across **82 independent upstream repositories**.
+**133 accepted pull requests** across **84 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 123 merged PRs / 82 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 133 merged PRs / 84 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
+| [turbot/steampipe-mod-aws-compliance](https://github.com/turbot/steampipe-mod-aws-compliance) | Fix opensearch_domain_https_required comparing the TLS policy with a literal | [#1017](https://github.com/turbot/steampipe-mod-aws-compliance/pull/1017) · [#1011](https://github.com/turbot/steampipe-mod-aws-compliance/pull/1011) · [#1016](https://github.com/turbot/steampipe-mod-aws-compliance/pull/1016) · [#1014](https://github.com/turbot/steampipe-mod-aws-compliance/pull/1014) · [#1013](https://github.com/turbot/steampipe-mod-aws-compliance/pull/1013) · [#1010](https://github.com/turbot/steampipe-mod-aws-compliance/pull/1010) · [#1009](https://github.com/turbot/steampipe-mod-aws-compliance/pull/1009) · [#978](https://github.com/turbot/steampipe-mod-aws-compliance/pull/978) |
 | [Velocidex/velociraptor](https://github.com/Velocidex/velociraptor) | Windows.System.Pslist: use the tracker's StartTime as CreateTime | [#5075](https://github.com/Velocidex/velociraptor/pull/5075) · [#5095](https://github.com/Velocidex/velociraptor/pull/5095) · [#5086](https://github.com/Velocidex/velociraptor/pull/5086) · [#5047](https://github.com/Velocidex/velociraptor/pull/5047) · [#5016](https://github.com/Velocidex/velociraptor/pull/5016) |
 | [firewalla/firewalla](https://github.com/firewalla/firewalla) | Keep the ipv4 entries of hostsdb in sync on Host:Updated | [#9959](https://github.com/firewalla/firewalla/pull/9959) · [#9954](https://github.com/firewalla/firewalla/pull/9954) · [#9953](https://github.com/firewalla/firewalla/pull/9953) · [#9910](https://github.com/firewalla/firewalla/pull/9910) · [#9909](https://github.com/firewalla/firewalla/pull/9909) |
 | [SigmaHQ/pySigma](https://github.com/SigmaHQ/pySigma) | fix: compile \|re values with the rule's policy | [#585](https://github.com/SigmaHQ/pySigma/pull/585) · [#545](https://github.com/SigmaHQ/pySigma/pull/545) · [#544](https://github.com/SigmaHQ/pySigma/pull/544) · [#542](https://github.com/SigmaHQ/pySigma/pull/542) · [#541](https://github.com/SigmaHQ/pySigma/pull/541) |
@@ -62,6 +63,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) | Upload media files of rich messages | [#2640](https://github.com/eternnoir/pyTelegramBotAPI/pull/2640) · [#2639](https://github.com/eternnoir/pyTelegramBotAPI/pull/2639) · [#2635](https://github.com/eternnoir/pyTelegramBotAPI/pull/2635) |
 | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) | al2023: map CIS 4.3.4 to sudo_remove_no_authenticate | [#15167](https://github.com/ComplianceAsCode/content/pull/15167) · [#15165](https://github.com/ComplianceAsCode/content/pull/15165) · [#15164](https://github.com/ComplianceAsCode/content/pull/15164) |
 | [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | fix: explain why col_summary_tbl() fails when no column can be profiled | [#469](https://github.com/posit-dev/pointblank/pull/469) · [#444](https://github.com/posit-dev/pointblank/pull/444) · [#445](https://github.com/posit-dev/pointblank/pull/445) |
+| [arviz-devs/arviz-stats](https://github.com/arviz-devs/arviz-stats) | Display current values in a SummaryDataFrame after they change | [#499](https://github.com/arviz-devs/arviz-stats/pull/499) · [#496](https://github.com/arviz-devs/arviz-stats/pull/496) |
 | [yeti-platform/yeti](https://github.com/yeti-platform/yeti) | Reject graph descriptors without an object id | [#1425](https://github.com/yeti-platform/yeti/pull/1425) · [#1408](https://github.com/yeti-platform/yeti/pull/1408) |
 | [Koenkk/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) | fix(homeassistant): Use state_value_template for a switch overridden to a light | [#33412](https://github.com/Koenkk/zigbee2mqtt/pull/33412) · [#33410](https://github.com/Koenkk/zigbee2mqtt/pull/33410) |
 | [firecow/gitlab-ci-local](https://github.com/firecow/gitlab-ci-local) | fix: evaluate spec:inputs:regex with RE2 like GitLab | [#1974](https://github.com/firecow/gitlab-ci-local/pull/1974) · [#1975](https://github.com/firecow/gitlab-ci-local/pull/1975) |
@@ -75,6 +77,8 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
+| [turbot/steampipe-plugin-azure](https://github.com/turbot/steampipe-plugin-azure) | Fix certificate_password being ignored in GetNewSessionUpdated (closes #1016) | [#1023](https://github.com/turbot/steampipe-plugin-azure/pull/1023) |
+| [turbot/steampipe-mod-azure-compliance](https://github.com/turbot/steampipe-mod-azure-compliance) | Accept an attached WAF policy in application_gateway_waf_enabled | [#378](https://github.com/turbot/steampipe-mod-azure-compliance/pull/378) |
 | [kevin1024/vcrpy](https://github.com/kevin1024/vcrpy) | Allow replayed responses to release a connection | [#1054](https://github.com/kevin1024/vcrpy/pull/1054) |
 | [oauthlib/oauthlib](https://github.com/oauthlib/oauthlib) | Dispatch reordered response_type values to the registered handler | [#987](https://github.com/oauthlib/oauthlib/pull/987) |
 | [JannisX11/blockbench](https://github.com/JannisX11/blockbench) | Fix new mesh faces getting a zero-size UV | [#3830](https://github.com/JannisX11/blockbench/pull/3830) |
@@ -87,7 +91,6 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [SumoLogic/pySigma-backend-sumologic](https://github.com/SumoLogic/pySigma-backend-sumologic) | Fix cse_rule output format | [#16](https://github.com/SumoLogic/pySigma-backend-sumologic/pull/16) |
 | [ipython/ipython](https://github.com/ipython/ipython) | Install ipykernel test requirements from its dependency group in downstream CI | [#15418](https://github.com/ipython/ipython/pull/15418) |
 | [typstyle-rs/typstyle](https://github.com/typstyle-rs/typstyle) | fix: parse enum marker numbers as u64 | [#520](https://github.com/typstyle-rs/typstyle/pull/520) |
-| [arviz-devs/arviz-stats](https://github.com/arviz-devs/arviz-stats) | Reduce MAD over sample_dims in summary median kinds | [#496](https://github.com/arviz-devs/arviz-stats/pull/496) |
 | [mui/base-ui](https://github.com/mui/base-ui) | [popover] Keep focus that moved elsewhere before the deferred focus restore | [#6015](https://github.com/mui/base-ui/pull/6015) |
 | [komari-monitor/komari](https://github.com/komari-monitor/komari) | fix(metricstore): give the ping queue its own capacity | [#695](https://github.com/komari-monitor/komari/pull/695) |
 | [fedora-infra/anitya](https://github.com/fedora-infra/anitya) | Use re.error instead of sre_constants.error (Python 3.15) | [#2130](https://github.com/fedora-infra/anitya/pull/2130) |
@@ -122,7 +125,6 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [oreilles/polars-st](https://github.com/oreilles/polars-st) | Fix import on Polars 2 (GeoSeries metaclass conflict) | [#85](https://github.com/oreilles/polars-st/pull/85) |
 | [datajuicer/data-juicer](https://github.com/datajuicer/data-juicer) | fix(mapper): use the Lexbor parser in clean_html_mapper | [#1085](https://github.com/datajuicer/data-juicer/pull/1085) |
 | [Kometa-Team/Quickstart](https://github.com/Kometa-Team/Quickstart) | Skip no-commit-to-branch in the Lint workflow | [#1878](https://github.com/Kometa-Team/Quickstart/pull/1878) |
-| [turbot/steampipe-mod-aws-compliance](https://github.com/turbot/steampipe-mod-aws-compliance) | Fix port ranges in vpc_security_group_restricted_common_ports query | [#978](https://github.com/turbot/steampipe-mod-aws-compliance/pull/978) |
 | [arxhr007/Aliens_eye](https://github.com/arxhr007/Aliens_eye) | Use the Lexbor parser of selectolax (fix ImportError with selectolax 1.0) | [#23](https://github.com/arxhr007/Aliens_eye/pull/23) |
 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Constrain PyAV below 19 in requirements.txt | [#1582](https://github.com/harry0703/MoneyPrinterTurbo/pull/1582) |
 | [Kometa-Team/Kometa](https://github.com/Kometa-Team/Kometa) | Report failed Apprise notifications with Apprise 2 | [#3690](https://github.com/Kometa-Team/Kometa/pull/3690) |
@@ -137,7 +139,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 
 </details>
 
-<sub>Maintained automatically from verified GitHub merges. Latest: 2026-10-25 (UTC). Open and closed-unmerged PRs are excluded.</sub>
+<sub>Maintained automatically from verified GitHub merges. Latest: 2026-10-27 (UTC). Open and closed-unmerged PRs are excluded.</sub>
 
 [**View the complete upstream history ↗**](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
