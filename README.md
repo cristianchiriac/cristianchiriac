@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**133 accepted pull requests** across **84 independent upstream repositories**.
+**137 accepted pull requests** across **87 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 133 merged PRs / 84 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 137 merged PRs / 87 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -63,6 +63,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) | Upload media files of rich messages | [#2640](https://github.com/eternnoir/pyTelegramBotAPI/pull/2640) · [#2639](https://github.com/eternnoir/pyTelegramBotAPI/pull/2639) · [#2635](https://github.com/eternnoir/pyTelegramBotAPI/pull/2635) |
 | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) | al2023: map CIS 4.3.4 to sudo_remove_no_authenticate | [#15167](https://github.com/ComplianceAsCode/content/pull/15167) · [#15165](https://github.com/ComplianceAsCode/content/pull/15165) · [#15164](https://github.com/ComplianceAsCode/content/pull/15164) |
 | [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | fix: explain why col_summary_tbl() fails when no column can be profiled | [#469](https://github.com/posit-dev/pointblank/pull/469) · [#444](https://github.com/posit-dev/pointblank/pull/444) · [#445](https://github.com/posit-dev/pointblank/pull/445) |
+| [SigmaHQ/pySigma-backend-splunk](https://github.com/SigmaHQ/pySigma-backend-splunk) | Support pySigma 2.0 | [#85](https://github.com/SigmaHQ/pySigma-backend-splunk/pull/85) · [#77](https://github.com/SigmaHQ/pySigma-backend-splunk/pull/77) |
 | [arviz-devs/arviz-stats](https://github.com/arviz-devs/arviz-stats) | Display current values in a SummaryDataFrame after they change | [#499](https://github.com/arviz-devs/arviz-stats/pull/499) · [#496](https://github.com/arviz-devs/arviz-stats/pull/496) |
 | [yeti-platform/yeti](https://github.com/yeti-platform/yeti) | Reject graph descriptors without an object id | [#1425](https://github.com/yeti-platform/yeti/pull/1425) · [#1408](https://github.com/yeti-platform/yeti/pull/1408) |
 | [Koenkk/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) | fix(homeassistant): Use state_value_template for a switch overridden to a light | [#33412](https://github.com/Koenkk/zigbee2mqtt/pull/33412) · [#33410](https://github.com/Koenkk/zigbee2mqtt/pull/33410) |
@@ -77,6 +78,9 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
+| [paupino/rust-decimal](https://github.com/paupino/rust-decimal) | Parse runs of leading zeros and separators without recursing | [#878](https://github.com/paupino/rust-decimal/pull/878) |
+| [madeofpendletonwool/PinePods](https://github.com/madeofpendletonwool/PinePods) | Hide the OIDC divider when standard login is disabled | [#994](https://github.com/madeofpendletonwool/PinePods/pull/994) |
+| [pySmartThings/pysmartthings](https://github.com/pySmartThings/pysmartthings) | Allow Z-Wave devices without manufacturer and product ids | [#821](https://github.com/pySmartThings/pysmartthings/pull/821) |
 | [turbot/steampipe-plugin-azure](https://github.com/turbot/steampipe-plugin-azure) | Fix certificate_password being ignored in GetNewSessionUpdated (closes #1016) | [#1023](https://github.com/turbot/steampipe-plugin-azure/pull/1023) |
 | [turbot/steampipe-mod-azure-compliance](https://github.com/turbot/steampipe-mod-azure-compliance) | Accept an attached WAF policy in application_gateway_waf_enabled | [#378](https://github.com/turbot/steampipe-mod-azure-compliance/pull/378) |
 | [kevin1024/vcrpy](https://github.com/kevin1024/vcrpy) | Allow replayed responses to release a connection | [#1054](https://github.com/kevin1024/vcrpy/pull/1054) |
@@ -134,12 +138,11 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [nornir-automation/nornir](https://github.com/nornir-automation/nornir) | Deprecate legacy Jinja2 rendering helpers | [#1103](https://github.com/nornir-automation/nornir/pull/1103) |
 | [logpoint/pySigma-backend-logpoint](https://github.com/logpoint/pySigma-backend-logpoint) | Fix AttributeError for numeric pipeline pre-filter values | [#38](https://github.com/logpoint/pySigma-backend-logpoint/pull/38) |
 | [SigmaHQ/pySigma-backend-crowdstrike](https://github.com/SigmaHQ/pySigma-backend-crowdstrike) | fix: OR nested inside AND was not parenthesized, widening the emitted query | [#25](https://github.com/SigmaHQ/pySigma-backend-crowdstrike/pull/25) |
-| [SigmaHQ/pySigma-backend-splunk](https://github.com/SigmaHQ/pySigma-backend-splunk) | fix: OR/AND precedence inversion widens emitted queries in SPL and SPL2 backends | [#77](https://github.com/SigmaHQ/pySigma-backend-splunk/pull/77) |
 | [benmoran56/esper](https://github.com/benmoran56/esper) | Fix _get_components() dropping a filter type when the min-size set changes twice | [#124](https://github.com/benmoran56/esper/pull/124) |
 
 </details>
 
-<sub>Maintained automatically from verified GitHub merges. Latest: 2026-10-27 (UTC). Open and closed-unmerged PRs are excluded.</sub>
+<sub>Maintained automatically from verified GitHub merges. Latest: 2026-10-28 (UTC). Open and closed-unmerged PRs are excluded.</sub>
 
 [**View the complete upstream history ↗**](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
