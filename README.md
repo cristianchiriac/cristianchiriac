@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**138 accepted pull requests** across **88 independent upstream repositories**.
+**140 accepted pull requests** across **90 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 138 merged PRs / 88 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 140 merged PRs / 90 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -78,6 +78,8 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
+| [turbot/powerpipe](https://github.com/turbot/powerpipe) | Fix text output hanging on multi-line dimension values. Closes #1146 | [#1147](https://github.com/turbot/powerpipe/pull/1147) |
+| [has2k1/plotnine](https://github.com/has2k1/plotnine) | fix: stop passing inplace=True to deprecated pandas methods | [#1137](https://github.com/has2k1/plotnine/pull/1137) |
 | [onionshare/onionshare](https://github.com/onionshare/onionshare) | Don't crash when reporting an exception that has no message | [#2137](https://github.com/onionshare/onionshare/pull/2137) |
 | [paupino/rust-decimal](https://github.com/paupino/rust-decimal) | Parse runs of leading zeros and separators without recursing | [#878](https://github.com/paupino/rust-decimal/pull/878) |
 | [madeofpendletonwool/PinePods](https://github.com/madeofpendletonwool/PinePods) | Hide the OIDC divider when standard login is disabled | [#994](https://github.com/madeofpendletonwool/PinePods/pull/994) |
@@ -143,7 +145,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 
 </details>
 
-<sub>Maintained automatically from verified GitHub merges. Latest: 2026-10-28 (UTC). Open and closed-unmerged PRs are excluded.</sub>
+<sub>Maintained automatically from verified GitHub merges. Latest: 2026-10-29 (UTC). Open and closed-unmerged PRs are excluded.</sub>
 
 [**View the complete upstream history ↗**](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
