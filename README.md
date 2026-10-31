@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**140 accepted pull requests** across **90 independent upstream repositories**.
+**144 accepted pull requests** across **93 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 140 merged PRs / 90 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 144 merged PRs / 93 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -63,6 +63,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) | Upload media files of rich messages | [#2640](https://github.com/eternnoir/pyTelegramBotAPI/pull/2640) · [#2639](https://github.com/eternnoir/pyTelegramBotAPI/pull/2639) · [#2635](https://github.com/eternnoir/pyTelegramBotAPI/pull/2635) |
 | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) | al2023: map CIS 4.3.4 to sudo_remove_no_authenticate | [#15167](https://github.com/ComplianceAsCode/content/pull/15167) · [#15165](https://github.com/ComplianceAsCode/content/pull/15165) · [#15164](https://github.com/ComplianceAsCode/content/pull/15164) |
 | [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | fix: explain why col_summary_tbl() fails when no column can be profiled | [#469](https://github.com/posit-dev/pointblank/pull/469) · [#444](https://github.com/posit-dev/pointblank/pull/444) · [#445](https://github.com/posit-dev/pointblank/pull/445) |
+| [SigmaHQ/pySigma-backend-crowdstrike](https://github.com/SigmaHQ/pySigma-backend-crowdstrike) | Support pySigma 2.0 | [#29](https://github.com/SigmaHQ/pySigma-backend-crowdstrike/pull/29) · [#25](https://github.com/SigmaHQ/pySigma-backend-crowdstrike/pull/25) |
 | [SigmaHQ/pySigma-backend-splunk](https://github.com/SigmaHQ/pySigma-backend-splunk) | Support pySigma 2.0 | [#85](https://github.com/SigmaHQ/pySigma-backend-splunk/pull/85) · [#77](https://github.com/SigmaHQ/pySigma-backend-splunk/pull/77) |
 | [arviz-devs/arviz-stats](https://github.com/arviz-devs/arviz-stats) | Display current values in a SummaryDataFrame after they change | [#499](https://github.com/arviz-devs/arviz-stats/pull/499) · [#496](https://github.com/arviz-devs/arviz-stats/pull/496) |
 | [yeti-platform/yeti](https://github.com/yeti-platform/yeti) | Reject graph descriptors without an object id | [#1425](https://github.com/yeti-platform/yeti/pull/1425) · [#1408](https://github.com/yeti-platform/yeti/pull/1408) |
@@ -78,6 +79,9 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
+| [ETLCPP/etl](https://github.com/ETLCPP/etl) | Fix vector insert of a value that refers to an element of the vector | [#1630](https://github.com/ETLCPP/etl/pull/1630) |
+| [hickory-dns/hickory-dns](https://github.com/hickory-dns/hickory-dns) | net: send SNI for DNS-over-TLS connections | [#4096](https://github.com/hickory-dns/hickory-dns/pull/4096) |
+| [bluesky/tiled](https://github.com/bluesky/tiled) | Compare SQLite JSON metadata without a CAST under SQLAlchemy 2.1 | [#1575](https://github.com/bluesky/tiled/pull/1575) |
 | [turbot/powerpipe](https://github.com/turbot/powerpipe) | Fix text output hanging on multi-line dimension values. Closes #1146 | [#1147](https://github.com/turbot/powerpipe/pull/1147) |
 | [has2k1/plotnine](https://github.com/has2k1/plotnine) | fix: stop passing inplace=True to deprecated pandas methods | [#1137](https://github.com/has2k1/plotnine/pull/1137) |
 | [onionshare/onionshare](https://github.com/onionshare/onionshare) | Don't crash when reporting an exception that has no message | [#2137](https://github.com/onionshare/onionshare/pull/2137) |
@@ -140,12 +144,11 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [Softcatala/whisper-ctranslate2](https://github.com/Softcatala/whisper-ctranslate2) | Constrain PyAV below 19 in the package requirements | [#154](https://github.com/Softcatala/whisper-ctranslate2/pull/154) |
 | [nornir-automation/nornir](https://github.com/nornir-automation/nornir) | Deprecate legacy Jinja2 rendering helpers | [#1103](https://github.com/nornir-automation/nornir/pull/1103) |
 | [logpoint/pySigma-backend-logpoint](https://github.com/logpoint/pySigma-backend-logpoint) | Fix AttributeError for numeric pipeline pre-filter values | [#38](https://github.com/logpoint/pySigma-backend-logpoint/pull/38) |
-| [SigmaHQ/pySigma-backend-crowdstrike](https://github.com/SigmaHQ/pySigma-backend-crowdstrike) | fix: OR nested inside AND was not parenthesized, widening the emitted query | [#25](https://github.com/SigmaHQ/pySigma-backend-crowdstrike/pull/25) |
 | [benmoran56/esper](https://github.com/benmoran56/esper) | Fix _get_components() dropping a filter type when the min-size set changes twice | [#124](https://github.com/benmoran56/esper/pull/124) |
 
 </details>
 
-<sub>Maintained automatically from verified GitHub merges. Latest: 2026-10-29 (UTC). Open and closed-unmerged PRs are excluded.</sub>
+<sub>Maintained automatically from verified GitHub merges. Latest: 2026-10-31 (UTC). Open and closed-unmerged PRs are excluded.</sub>
 
 [**View the complete upstream history ↗**](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
