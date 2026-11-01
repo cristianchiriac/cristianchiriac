@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**144 accepted pull requests** across **93 independent upstream repositories**.
+**145 accepted pull requests** across **94 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 144 merged PRs / 93 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 145 merged PRs / 94 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -79,6 +79,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
+| [parcel-bundler/lightningcss](https://github.com/parcel-bundler/lightningcss) | Only emit -webkit- and -moz- fallbacks for stretch | [#1377](https://github.com/parcel-bundler/lightningcss/pull/1377) |
 | [ETLCPP/etl](https://github.com/ETLCPP/etl) | Fix vector insert of a value that refers to an element of the vector | [#1630](https://github.com/ETLCPP/etl/pull/1630) |
 | [hickory-dns/hickory-dns](https://github.com/hickory-dns/hickory-dns) | net: send SNI for DNS-over-TLS connections | [#4096](https://github.com/hickory-dns/hickory-dns/pull/4096) |
 | [bluesky/tiled](https://github.com/bluesky/tiled) | Compare SQLite JSON metadata without a CAST under SQLAlchemy 2.1 | [#1575](https://github.com/bluesky/tiled/pull/1575) |
