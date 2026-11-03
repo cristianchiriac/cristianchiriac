@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**147 accepted pull requests** across **96 independent upstream repositories**.
+**148 accepted pull requests** across **97 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 147 merged PRs / 96 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 148 merged PRs / 97 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -79,6 +79,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
+| [OpenCTI-Platform/connectors](https://github.com/OpenCTI-Platform/connectors) | fix(crowdstrike): stop pagination after API errors (#7430) | [#7682](https://github.com/OpenCTI-Platform/connectors/pull/7682) |
 | [SigmaHQ/pySigma-pipeline-windows](https://github.com/SigmaHQ/pySigma-pipeline-windows) | Support pySigma 2.0 | [#15](https://github.com/SigmaHQ/pySigma-pipeline-windows/pull/15) |
 | [SigmaHQ/pySigma-pipeline-sysmon](https://github.com/SigmaHQ/pySigma-pipeline-sysmon) | Support pySigma 2.0 | [#15](https://github.com/SigmaHQ/pySigma-pipeline-sysmon/pull/15) |
 | [parcel-bundler/lightningcss](https://github.com/parcel-bundler/lightningcss) | Only emit -webkit- and -moz- fallbacks for stretch | [#1377](https://github.com/parcel-bundler/lightningcss/pull/1377) |
@@ -151,7 +152,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 
 </details>
 
-<sub>Maintained automatically from verified GitHub merges. Latest: 2026-11-01 (UTC). Open and closed-unmerged PRs are excluded.</sub>
+<sub>Maintained automatically from verified GitHub merges. Latest: 2026-11-03 (UTC). Open and closed-unmerged PRs are excluded.</sub>
 
 [**View the complete upstream history ↗**](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
