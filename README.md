@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**148 accepted pull requests** across **97 independent upstream repositories**.
+**149 accepted pull requests** across **97 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 148 merged PRs / 97 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 149 merged PRs / 97 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -63,6 +63,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) | Upload media files of rich messages | [#2640](https://github.com/eternnoir/pyTelegramBotAPI/pull/2640) · [#2639](https://github.com/eternnoir/pyTelegramBotAPI/pull/2639) · [#2635](https://github.com/eternnoir/pyTelegramBotAPI/pull/2635) |
 | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) | al2023: map CIS 4.3.4 to sudo_remove_no_authenticate | [#15167](https://github.com/ComplianceAsCode/content/pull/15167) · [#15165](https://github.com/ComplianceAsCode/content/pull/15165) · [#15164](https://github.com/ComplianceAsCode/content/pull/15164) |
 | [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | fix: explain why col_summary_tbl() fails when no column can be profiled | [#469](https://github.com/posit-dev/pointblank/pull/469) · [#444](https://github.com/posit-dev/pointblank/pull/444) · [#445](https://github.com/posit-dev/pointblank/pull/445) |
+| [OpenCTI-Platform/connectors](https://github.com/OpenCTI-Platform/connectors) | fix(alienvault): accept "Z" suffix in pulse start timestamp (#7753) | [#7784](https://github.com/OpenCTI-Platform/connectors/pull/7784) · [#7682](https://github.com/OpenCTI-Platform/connectors/pull/7682) |
 | [SigmaHQ/pySigma-backend-crowdstrike](https://github.com/SigmaHQ/pySigma-backend-crowdstrike) | Support pySigma 2.0 | [#29](https://github.com/SigmaHQ/pySigma-backend-crowdstrike/pull/29) · [#25](https://github.com/SigmaHQ/pySigma-backend-crowdstrike/pull/25) |
 | [SigmaHQ/pySigma-backend-splunk](https://github.com/SigmaHQ/pySigma-backend-splunk) | Support pySigma 2.0 | [#85](https://github.com/SigmaHQ/pySigma-backend-splunk/pull/85) · [#77](https://github.com/SigmaHQ/pySigma-backend-splunk/pull/77) |
 | [arviz-devs/arviz-stats](https://github.com/arviz-devs/arviz-stats) | Display current values in a SummaryDataFrame after they change | [#499](https://github.com/arviz-devs/arviz-stats/pull/499) · [#496](https://github.com/arviz-devs/arviz-stats/pull/496) |
@@ -79,7 +80,6 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
-| [OpenCTI-Platform/connectors](https://github.com/OpenCTI-Platform/connectors) | fix(crowdstrike): stop pagination after API errors (#7430) | [#7682](https://github.com/OpenCTI-Platform/connectors/pull/7682) |
 | [SigmaHQ/pySigma-pipeline-windows](https://github.com/SigmaHQ/pySigma-pipeline-windows) | Support pySigma 2.0 | [#15](https://github.com/SigmaHQ/pySigma-pipeline-windows/pull/15) |
 | [SigmaHQ/pySigma-pipeline-sysmon](https://github.com/SigmaHQ/pySigma-pipeline-sysmon) | Support pySigma 2.0 | [#15](https://github.com/SigmaHQ/pySigma-pipeline-sysmon/pull/15) |
 | [parcel-bundler/lightningcss](https://github.com/parcel-bundler/lightningcss) | Only emit -webkit- and -moz- fallbacks for stretch | [#1377](https://github.com/parcel-bundler/lightningcss/pull/1377) |
