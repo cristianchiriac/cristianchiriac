@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**149 accepted pull requests** across **97 independent upstream repositories**.
+**153 accepted pull requests** across **99 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 149 merged PRs / 97 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 153 merged PRs / 99 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -58,6 +58,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [SigmaHQ/pySigma](https://github.com/SigmaHQ/pySigma) | fix: compile \|re values with the rule's policy | [#585](https://github.com/SigmaHQ/pySigma/pull/585) · [#545](https://github.com/SigmaHQ/pySigma/pull/545) · [#544](https://github.com/SigmaHQ/pySigma/pull/544) · [#542](https://github.com/SigmaHQ/pySigma/pull/542) · [#541](https://github.com/SigmaHQ/pySigma/pull/541) |
 | [strictdoc-project/strictdoc](https://github.com/strictdoc-project/strictdoc) | fix(traceability_matrix): skip included documents when listing nodes | [#3255](https://github.com/strictdoc-project/strictdoc/pull/3255) · [#3256](https://github.com/strictdoc-project/strictdoc/pull/3256) · [#3243](https://github.com/strictdoc-project/strictdoc/pull/3243) · [#3244](https://github.com/strictdoc-project/strictdoc/pull/3244) |
 | [caronc/apprise](https://github.com/caronc/apprise) | Keep cc/bcc/reply display names intact in email url() | [#1812](https://github.com/caronc/apprise/pull/1812) · [#1813](https://github.com/caronc/apprise/pull/1813) · [#1807](https://github.com/caronc/apprise/pull/1807) · [#1808](https://github.com/caronc/apprise/pull/1808) |
+| [turbot/steampipe-plugin-azure](https://github.com/turbot/steampipe-plugin-azure) | Add identity_principal_id and identity_tenant_id columns to azure_cognitive_account and azure_machine_learning_workspace (closes #1022) | [#1024](https://github.com/turbot/steampipe-plugin-azure/pull/1024) · [#1025](https://github.com/turbot/steampipe-plugin-azure/pull/1025) · [#1023](https://github.com/turbot/steampipe-plugin-azure/pull/1023) |
 | [SigmaHQ/pySigma-backend-elasticsearch](https://github.com/SigmaHQ/pySigma-backend-elasticsearch) | Support pySigma 2.0 | [#235](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/235) · [#231](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/231) · [#230](https://github.com/SigmaHQ/pySigma-backend-elasticsearch/pull/230) |
 | [callowayproject/bump-my-version](https://github.com/callowayproject/bump-my-version) | fix: don't enable pip caching in the GitHub Action | [#447](https://github.com/callowayproject/bump-my-version/pull/447) · [#448](https://github.com/callowayproject/bump-my-version/pull/448) · [#439](https://github.com/callowayproject/bump-my-version/pull/439) |
 | [eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) | Upload media files of rich messages | [#2640](https://github.com/eternnoir/pyTelegramBotAPI/pull/2640) · [#2639](https://github.com/eternnoir/pyTelegramBotAPI/pull/2639) · [#2635](https://github.com/eternnoir/pyTelegramBotAPI/pull/2635) |
@@ -80,6 +81,8 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
+| [containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | fix(helm): describe helm_list namespace default as the current namespace | [#1485](https://github.com/containers/kubernetes-mcp-server/pull/1485) |
+| [pycontribs/jira](https://github.com/pycontribs/jira) | fix: user-configured proxies being overridden by http_proxy/https_proxy env vars | [#2445](https://github.com/pycontribs/jira/pull/2445) |
 | [SigmaHQ/pySigma-pipeline-windows](https://github.com/SigmaHQ/pySigma-pipeline-windows) | Support pySigma 2.0 | [#15](https://github.com/SigmaHQ/pySigma-pipeline-windows/pull/15) |
 | [SigmaHQ/pySigma-pipeline-sysmon](https://github.com/SigmaHQ/pySigma-pipeline-sysmon) | Support pySigma 2.0 | [#15](https://github.com/SigmaHQ/pySigma-pipeline-sysmon/pull/15) |
 | [parcel-bundler/lightningcss](https://github.com/parcel-bundler/lightningcss) | Only emit -webkit- and -moz- fallbacks for stretch | [#1377](https://github.com/parcel-bundler/lightningcss/pull/1377) |
@@ -92,7 +95,6 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [paupino/rust-decimal](https://github.com/paupino/rust-decimal) | Parse runs of leading zeros and separators without recursing | [#878](https://github.com/paupino/rust-decimal/pull/878) |
 | [madeofpendletonwool/PinePods](https://github.com/madeofpendletonwool/PinePods) | Hide the OIDC divider when standard login is disabled | [#994](https://github.com/madeofpendletonwool/PinePods/pull/994) |
 | [pySmartThings/pysmartthings](https://github.com/pySmartThings/pysmartthings) | Allow Z-Wave devices without manufacturer and product ids | [#821](https://github.com/pySmartThings/pysmartthings/pull/821) |
-| [turbot/steampipe-plugin-azure](https://github.com/turbot/steampipe-plugin-azure) | Fix certificate_password being ignored in GetNewSessionUpdated (closes #1016) | [#1023](https://github.com/turbot/steampipe-plugin-azure/pull/1023) |
 | [turbot/steampipe-mod-azure-compliance](https://github.com/turbot/steampipe-mod-azure-compliance) | Accept an attached WAF policy in application_gateway_waf_enabled | [#378](https://github.com/turbot/steampipe-mod-azure-compliance/pull/378) |
 | [kevin1024/vcrpy](https://github.com/kevin1024/vcrpy) | Allow replayed responses to release a connection | [#1054](https://github.com/kevin1024/vcrpy/pull/1054) |
 | [oauthlib/oauthlib](https://github.com/oauthlib/oauthlib) | Dispatch reordered response_type values to the registered handler | [#987](https://github.com/oauthlib/oauthlib/pull/987) |
@@ -152,7 +154,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 
 </details>
 
-<sub>Maintained automatically from verified GitHub merges. Latest: 2026-11-03 (UTC). Open and closed-unmerged PRs are excluded.</sub>
+<sub>Maintained automatically from verified GitHub merges. Latest: 2026-11-04 (UTC). Open and closed-unmerged PRs are excluded.</sub>
 
 [**View the complete upstream history ↗**](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
