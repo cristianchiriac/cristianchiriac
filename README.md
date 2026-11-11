@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**153 accepted pull requests** across **99 independent upstream repositories**.
+**155 accepted pull requests** across **101 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 153 merged PRs / 99 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 155 merged PRs / 101 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -81,6 +81,8 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
+| [pixijs/pixijs](https://github.com/pixijs/pixijs) | fix: keep the hidden drop shadow text off the canvas at resolutions below 1 | [#12315](https://github.com/pixijs/pixijs/pull/12315) |
+| [solidjs-community/solid-primitives](https://github.com/solidjs-community/solid-primitives) | fix: run the build scripts with --experimental-strip-types for Node 26 | [#1076](https://github.com/solidjs-community/solid-primitives/pull/1076) |
 | [containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | fix(helm): describe helm_list namespace default as the current namespace | [#1485](https://github.com/containers/kubernetes-mcp-server/pull/1485) |
 | [pycontribs/jira](https://github.com/pycontribs/jira) | fix: user-configured proxies being overridden by http_proxy/https_proxy env vars | [#2445](https://github.com/pycontribs/jira/pull/2445) |
 | [SigmaHQ/pySigma-pipeline-windows](https://github.com/SigmaHQ/pySigma-pipeline-windows) | Support pySigma 2.0 | [#15](https://github.com/SigmaHQ/pySigma-pipeline-windows/pull/15) |
@@ -154,7 +156,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 
 </details>
 
-<sub>Maintained automatically from verified GitHub merges. Latest: 2026-11-04 (UTC). Open and closed-unmerged PRs are excluded.</sub>
+<sub>Maintained automatically from verified GitHub merges. Latest: 2026-11-11 (UTC). Open and closed-unmerged PRs are excluded.</sub>
 
 [**View the complete upstream history ↗**](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
