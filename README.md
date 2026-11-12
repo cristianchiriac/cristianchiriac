@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**155 accepted pull requests** across **101 independent upstream repositories**.
+**156 accepted pull requests** across **101 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 155 merged PRs / 101 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 156 merged PRs / 101 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -64,6 +64,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) | Upload media files of rich messages | [#2640](https://github.com/eternnoir/pyTelegramBotAPI/pull/2640) · [#2639](https://github.com/eternnoir/pyTelegramBotAPI/pull/2639) · [#2635](https://github.com/eternnoir/pyTelegramBotAPI/pull/2635) |
 | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) | al2023: map CIS 4.3.4 to sudo_remove_no_authenticate | [#15167](https://github.com/ComplianceAsCode/content/pull/15167) · [#15165](https://github.com/ComplianceAsCode/content/pull/15165) · [#15164](https://github.com/ComplianceAsCode/content/pull/15164) |
 | [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | fix: explain why col_summary_tbl() fails when no column can be profiled | [#469](https://github.com/posit-dev/pointblank/pull/469) · [#444](https://github.com/posit-dev/pointblank/pull/444) · [#445](https://github.com/posit-dev/pointblank/pull/445) |
+| [eugenioenko/ttt](https://github.com/eugenioenko/ttt) | fix(app): return focus to where it was when an overlay closes | [#1082](https://github.com/eugenioenko/ttt/pull/1082) · [#950](https://github.com/eugenioenko/ttt/pull/950) |
 | [OpenCTI-Platform/connectors](https://github.com/OpenCTI-Platform/connectors) | fix(alienvault): accept "Z" suffix in pulse start timestamp (#7753) | [#7784](https://github.com/OpenCTI-Platform/connectors/pull/7784) · [#7682](https://github.com/OpenCTI-Platform/connectors/pull/7682) |
 | [SigmaHQ/pySigma-backend-crowdstrike](https://github.com/SigmaHQ/pySigma-backend-crowdstrike) | Support pySigma 2.0 | [#29](https://github.com/SigmaHQ/pySigma-backend-crowdstrike/pull/29) · [#25](https://github.com/SigmaHQ/pySigma-backend-crowdstrike/pull/25) |
 | [SigmaHQ/pySigma-backend-splunk](https://github.com/SigmaHQ/pySigma-backend-splunk) | Support pySigma 2.0 | [#85](https://github.com/SigmaHQ/pySigma-backend-splunk/pull/85) · [#77](https://github.com/SigmaHQ/pySigma-backend-splunk/pull/77) |
@@ -116,7 +117,6 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [quasarframework/quasar](https://github.com/quasarframework/quasar) | fix(ui): compare the hash route path when releasing the iOS scroll lock #18573 | [#18574](https://github.com/quasarframework/quasar/pull/18574) |
 | [falcosecurity/falco](https://github.com/falcosecurity/falco) | fix(userspace/falco): recover file_output from a failed write | [#4036](https://github.com/falcosecurity/falco/pull/4036) |
 | [BottlecapDave/HomeAssistant-OctopusEnergy](https://github.com/BottlecapDave/HomeAssistant-OctopusEnergy) | fix: Default "favour direct debit rates" to on when adding an account | [#1918](https://github.com/BottlecapDave/HomeAssistant-OctopusEnergy/pull/1918) |
-| [eugenioenko/ttt](https://github.com/eugenioenko/ttt) | fix(search): clear find highlights when closing find on a content tab | [#950](https://github.com/eugenioenko/ttt/pull/950) |
 | [getsentry/spotlight](https://github.com/getsentry/spotlight) | fix(dev): Run the sidecar with --experimental-strip-types for Node 26 | [#1364](https://github.com/getsentry/spotlight/pull/1364) |
 | [Hexagon/croner](https://github.com/Hexagon/croner) | Fix previousRuns() for months shorter than 31 days | [#409](https://github.com/Hexagon/croner/pull/409) |
 | [marcosschroh/dataclasses-avroschema](https://github.com/marcosschroh/dataclasses-avroschema) | fix: compare union defaults with dataclasses.MISSING (Python 3.15) | [#984](https://github.com/marcosschroh/dataclasses-avroschema/pull/984) |
