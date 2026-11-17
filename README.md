@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**159 accepted pull requests** across **104 independent upstream repositories**.
+**161 accepted pull requests** across **105 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 159 merged PRs / 104 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 161 merged PRs / 105 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -64,6 +64,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [eternnoir/pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI) | Upload media files of rich messages | [#2640](https://github.com/eternnoir/pyTelegramBotAPI/pull/2640) · [#2639](https://github.com/eternnoir/pyTelegramBotAPI/pull/2639) · [#2635](https://github.com/eternnoir/pyTelegramBotAPI/pull/2635) |
 | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) | al2023: map CIS 4.3.4 to sudo_remove_no_authenticate | [#15167](https://github.com/ComplianceAsCode/content/pull/15167) · [#15165](https://github.com/ComplianceAsCode/content/pull/15165) · [#15164](https://github.com/ComplianceAsCode/content/pull/15164) |
 | [posit-dev/pointblank](https://github.com/posit-dev/pointblank) | fix: explain why col_summary_tbl() fails when no column can be profiled | [#469](https://github.com/posit-dev/pointblank/pull/469) · [#444](https://github.com/posit-dev/pointblank/pull/444) · [#445](https://github.com/posit-dev/pointblank/pull/445) |
+| [turbot/steampipe-plugin-aws](https://github.com/turbot/steampipe-plugin-aws) | Skip local EKS clusters in aws_eks_node_group list (closes #2771) | [#2797](https://github.com/turbot/steampipe-plugin-aws/pull/2797) · [#2798](https://github.com/turbot/steampipe-plugin-aws/pull/2798) |
 | [eugenioenko/ttt](https://github.com/eugenioenko/ttt) | fix(app): return focus to where it was when an overlay closes | [#1082](https://github.com/eugenioenko/ttt/pull/1082) · [#950](https://github.com/eugenioenko/ttt/pull/950) |
 | [OpenCTI-Platform/connectors](https://github.com/OpenCTI-Platform/connectors) | fix(alienvault): accept "Z" suffix in pulse start timestamp (#7753) | [#7784](https://github.com/OpenCTI-Platform/connectors/pull/7784) · [#7682](https://github.com/OpenCTI-Platform/connectors/pull/7682) |
 | [SigmaHQ/pySigma-backend-crowdstrike](https://github.com/SigmaHQ/pySigma-backend-crowdstrike) | Support pySigma 2.0 | [#29](https://github.com/SigmaHQ/pySigma-backend-crowdstrike/pull/29) · [#25](https://github.com/SigmaHQ/pySigma-backend-crowdstrike/pull/25) |
