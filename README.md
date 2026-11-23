@@ -11,8 +11,6 @@ Cybersecurity engineer working on detection engineering, threat hunting, and dig
 
 **[Local Mail Guardian](https://github.com/cristianchiriac/Yahoo-IMAP-Spam-Cleaner)** scans Yahoo Mail locally for phishing and spam, shows which signals flagged each message, and runs in dry-run mode by default.
 
-[ORCID](https://orcid.org/0009-0006-0583-046X)
-
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
