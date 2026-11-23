@@ -1,22 +1,23 @@
 # Cristian Chiriac
 
-Cybersecurity engineer working on detection engineering, threat hunting, and digital forensics.
+I build tools for investigating suspicious email and contribute fixes to open-source security projects.
 
-## Selected upstream work
+<!-- BEGIN UPSTREAM TOTAL -->
+**164 merged upstream pull requests.**
+<!-- END UPSTREAM TOTAL -->
 
-- **[Apache CALDERA #3417](https://github.com/apache/caldera/pull/3417)** — fixed the documented Git command for checking out a specific CALDERA release.
-- **[Splunk Sigma backend #77](https://github.com/SigmaHQ/pySigma-backend-splunk/pull/77)** — fixed Boolean precedence so generated SPL and SPL2 searches match the scope of the original Sigma rule.
+## Selected work
 
-## Independent project
-
-**[Local Mail Guardian](https://github.com/cristianchiriac/Yahoo-IMAP-Spam-Cleaner)** scans Yahoo Mail locally for phishing and spam, shows which signals flagged each message, and runs in dry-run mode by default.
+- **[Local Mail Guardian](https://github.com/cristianchiriac/Yahoo-IMAP-Spam-Cleaner)** — I built a local phishing and spam scanner for Yahoo Mail. It shows which signals flagged each message and starts in dry-run mode.
+- **[Steampipe AWS Compliance](https://github.com/turbot/steampipe-mod-aws-compliance/pull/1017)** — I corrected an OpenSearch compliance check that flagged domains even when their HTTPS and TLS settings met the requirement.
+- **[Velociraptor](https://github.com/Velocidex/velociraptor/pull/5075)** — I fixed Windows process listings so investigators get the process creation time when using the process tracker.
 
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**164 merged pull requests** across **108 upstream repositories**.
+Of the 108 upstream repositories I contributed to, 31 merged two or more of my pull requests.
 
-[Browse merged pull requests on GitHub](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
+[Browse my merged upstream PRs](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged+is%3Apublic+-user%3Acristianchiriac&type=pullrequests) · Updated 23 Nov 2026 (UTC).
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
 
 <a href="https://github.com/stats-organization/github-stats-extended">
