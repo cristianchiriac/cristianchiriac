@@ -7,6 +7,7 @@ Requires GITHUB_TOKEN; fails closed on incomplete GitHub search results.
 from __future__ import annotations
 
 from collections import defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlencode, urlsplit
 from urllib.request import Request, urlopen
@@ -18,10 +19,10 @@ README = Path("README.md")
 START = "<!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->"
 END = "<!-- END AUTO-GENERATED CONTRIBUTIONS -->"
 SEARCH_URL = "https://api.github.com/search/issues"
-HISTORY_URL = (
-    "https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged"
-    "&type=pullrequests"
-)
+QUERY = f"author:{USERNAME} is:pr is:merged is:public -user:{USERNAME}"
+HISTORY_URL = "https://github.com/search?" + urlencode({"q": QUERY, "type": "pullrequests"})
+HEAD_START = "<!-- BEGIN UPSTREAM TOTAL -->"
+HEAD_END = "<!-- END UPSTREAM TOTAL -->"
 
 
 def fetch_merged_prs() -> list[dict]:
@@ -33,7 +34,7 @@ def fetch_merged_prs() -> list[dict]:
     total = None
     for page in range(1, 11):
         query = urlencode({
-            "q": f"author:{USERNAME} is:pr is:merged",
+            "q": QUERY,
             "per_page": 100,
             "page": page,
             "sort": "updated",
@@ -92,26 +93,34 @@ def count_prs_by_repo(items: list[dict]) -> dict[str, int]:
     return repos
 
 
-def render(items: list[dict]) -> str:
+def replace_block(text: str, start: str, end: str, body: str) -> str:
+    if text.count(start) != 1 or text.count(end) != 1:
+        raise RuntimeError("README generation markers must exist exactly once")
+    prefix, rest = text.split(start, 1)
+    _, suffix = rest.split(end, 1)
+    return f"{prefix}{start}\n{body}\n{end}{suffix}"
+
+
+def update_profile(original: str, items: list[dict], updated_on: str) -> str:
     repos = count_prs_by_repo(items)
     if not repos:
         raise RuntimeError("No external merged PRs: refusing to replace existing profile")
-    count = sum(repos.values())
-
-    return "\n".join([
-        f"**{count} merged pull requests** across **{len(repos)} upstream repositories**.",
-        "",
-        f"[Browse merged pull requests on GitHub]({HISTORY_URL})",
-    ])
+    total = sum(repos.values())
+    repeat = sum(number >= 2 for number in repos.values())
+    headline = f"**{total} merged upstream pull requests.**"
+    summary = (
+        f"Of the {len(repos)} upstream repositories I contributed to, "
+        f"{repeat} merged two or more of my pull requests.\n\n"
+        f"[Browse my merged upstream PRs]({HISTORY_URL}) · Updated {updated_on} (UTC)."
+    )
+    text = replace_block(original, HEAD_START, HEAD_END, headline)
+    return replace_block(text, START, END, summary)
 
 
 def main() -> None:
     original = README.read_text(encoding="utf-8")
-    if original.count(START) != 1 or original.count(END) != 1:
-        raise RuntimeError("README generation markers must exist exactly once")
-    prefix, rest = original.split(START, 1)
-    _, suffix = rest.split(END, 1)
-    updated = prefix + START + "\n" + render(fetch_merged_prs()) + "\n" + END + suffix
+    items = fetch_merged_prs()
+    updated = update_profile(original, items, datetime.now(timezone.utc).strftime("%d %b %Y"))
     if updated == original:
         print("Profile already up to date; no commit required.")
         return
