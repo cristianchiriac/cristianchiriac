@@ -29,10 +29,6 @@ Of the 108 upstream repositories I contributed to, 31 merged two or more of my p
 [Browse my merged upstream PRs](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged+is%3Apublic+-user%3Acristianchiriac&type=pullrequests) · Updated 23 Nov 2026 (UTC).
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
 
-## GitHub activity
-
-[![GitHub trophies for cristianchiriac](https://github-profile-trophy-unserori.vercel.app/?username=cristianchiriac&title=PullRequest,Repositories,Commits&column=3&theme=flat)](https://github.com/ryo-ma/github-profile-trophy)
-
 <a href="https://github.com/stats-organization/github-stats-extended">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=cristianchiriac&amp;show_icons=true&amp;hide_rank=true&amp;theme=github_dark">
