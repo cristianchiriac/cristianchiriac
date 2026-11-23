@@ -15,11 +15,6 @@ Cybersecurity engineer working on detection engineering, threat hunting, and dig
 
 ## Open source contributions
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="contribution-overview-dark.png">
-  <img src="contribution-overview-light.png" alt="Snapshot from 23 Nov 2026: 164 merged PRs across 108 upstream repositories. 77 repositories have one PR, 25 have two or three, and 6 have four or more.">
-</picture>
-
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
 **164 merged pull requests** across **108 upstream repositories**.
 
