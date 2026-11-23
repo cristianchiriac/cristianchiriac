@@ -43,12 +43,12 @@ A few shipped fixes that illustrate the kinds of problems I work on. Each link g
 ## Open source contributions
 
 <!-- BEGIN AUTO-GENERATED CONTRIBUTIONS -->
-**163 accepted pull requests** across **107 independent upstream repositories**.
+**164 accepted pull requests** across **108 independent upstream repositories**.
 
 Every PR below is merged into the upstream project, not merely submitted from a fork.
 
 <details>
-<summary><strong>Explore the complete contribution log</strong> — 163 merged PRs / 107 repositories</summary>
+<summary><strong>Explore the complete contribution log</strong> — 164 merged PRs / 108 repositories</summary>
 
 | Upstream | Latest merged change | Accepted PRs |
 |:--|:--|:--|
@@ -83,6 +83,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 | [coin-or/pulp](https://github.com/coin-or/pulp) | Keep binary bounds in nested add_variable_dicts and add_variable_matrix | [#964](https://github.com/coin-or/pulp/pull/964) · [#953](https://github.com/coin-or/pulp/pull/953) |
 | [Flexget/Flexget](https://github.com/Flexget/Flexget) | Apply the session's max_retries to https:// requests | [#5264](https://github.com/Flexget/Flexget/pull/5264) · [#5263](https://github.com/Flexget/Flexget/pull/5263) |
 | [dgunning/edgartools](https://github.com/dgunning/edgartools) | fix(search): drop an amendment form code whose root form is also listed | [#1545](https://github.com/dgunning/edgartools/pull/1545) · [#1533](https://github.com/dgunning/edgartools/pull/1533) |
+| [electrikmilk/cherri](https://github.com/electrikmilk/cherri) | Fix import panic on empty nested dictionaries | [#230](https://github.com/electrikmilk/cherri/pull/230) |
 | [apache/caldera](https://github.com/apache/caldera) | docs: fix versioned clone command | [#3417](https://github.com/apache/caldera/pull/3417) |
 | [SigmaHQ/pySigma-pipeline-ocsf](https://github.com/SigmaHQ/pySigma-pipeline-ocsf) | Support pySigma 2.0 | [#31](https://github.com/SigmaHQ/pySigma-pipeline-ocsf/pull/31) |
 | [prometheus/blackbox_exporter](https://github.com/prometheus/blackbox_exporter) | prober: send a Content-Length for body_file requests | [#1712](https://github.com/prometheus/blackbox_exporter/pull/1712) |
@@ -162,7 +163,7 @@ Every PR below is merged into the upstream project, not merely submitted from a 
 
 </details>
 
-<sub>Maintained automatically from verified GitHub merges. Latest: 2026-11-18 (UTC). Open and closed-unmerged PRs are excluded.</sub>
+<sub>Maintained automatically from verified GitHub merges. Latest: 2026-11-23 (UTC). Open and closed-unmerged PRs are excluded.</sub>
 
 [**View the complete upstream history ↗**](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
