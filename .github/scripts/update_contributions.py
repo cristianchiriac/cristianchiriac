@@ -7,13 +7,11 @@ Requires GITHUB_TOKEN; fails closed on incomplete GitHub search results.
 from __future__ import annotations
 
 from collections import defaultdict
-from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlencode, urlsplit
 from urllib.request import Request, urlopen
 import json
 import os
-import re
 
 USERNAME = "cristianchiriac"
 README = Path("README.md")
@@ -73,8 +71,8 @@ def fetch_merged_prs() -> list[dict]:
     return merged
 
 
-def parse_prs(items: list[dict]) -> dict[str, list[dict]]:
-    repos: dict[str, list[dict]] = defaultdict(list)
+def count_prs_by_repo(items: list[dict]) -> dict[str, int]:
+    repos: dict[str, int] = defaultdict(int)
     for item in items:
         url = item.get("html_url", "")
         path = urlsplit(url)
@@ -89,63 +87,22 @@ def parse_prs(items: list[dict]) -> dict[str, list[dict]]:
         if parts[0].lower() == USERNAME.lower():
             continue  # Own repository merges are not external upstream acceptance.
         repo = f"{parts[0]}/{parts[1]}"
-        repos[repo].append({
-            "url": url,
-            "number": int(parts[3]),
-            "title": item.get("title", ""),
-            "merged_at": merged_at,
-        })
+        repos[repo] += 1
 
-    for prs in repos.values():
-        prs.sort(key=lambda p: p["merged_at"], reverse=True)
     return repos
 
 
-def safe_table_text(text: str) -> str:
-    return re.sub(r"\s+", " ", text).replace("|", r"\|").replace("<", "&lt;").replace(">", "&gt;")
-
-
 def render(items: list[dict]) -> str:
-    repos = parse_prs(items)
-    ordered = sorted(
-        repos.items(),
-        key=lambda pair: (
-            -len(pair[1]),
-            -datetime.fromisoformat(pair[1][0]["merged_at"].replace("Z", "+00:00")).timestamp(),
-            pair[0].lower(),
-        ),
-    )
-    count = sum(len(prs) for _, prs in ordered)
-    latest = max((p["merged_at"] for _, prs in ordered for p in prs), default=None)
-    if not latest:
+    repos = count_prs_by_repo(items)
+    if not repos:
         raise RuntimeError("No external merged PRs: refusing to replace existing profile")
+    count = sum(repos.values())
 
-    lines = [
-        f"**{count} accepted pull requests** across **{len(ordered)} independent upstream repositories**.",
+    return "\n".join([
+        f"**{count} merged pull requests** across **{len(repos)} upstream repositories**.",
         "",
-        "Every PR below is merged into the upstream project, not merely submitted from a fork.",
-        "",
-        "<details>",
-        f"<summary><strong>Explore the complete contribution log</strong> — {count} merged PRs / {len(ordered)} repositories</summary>",
-        "",
-        "| Upstream | Latest merged change | Accepted PRs |",
-        "|:--|:--|:--|",
-    ]
-    for repo, prs in ordered:
-        links = " · ".join(f"[#{p['number']}]({p['url']})" for p in prs)
-        lines.append(
-            f"| [{repo}](https://github.com/{repo}) | "
-            f"{safe_table_text(prs[0]['title'])} | {links} |"
-        )
-    lines += [
-        "",
-        "</details>",
-        "",
-        f"<sub>Maintained automatically from verified GitHub merges. Latest: {latest[:10]} (UTC). Open and closed-unmerged PRs are excluded.</sub>",
-        "",
-        f"[**View the complete upstream history ↗**]({HISTORY_URL})",
-    ]
-    return "\n".join(lines)
+        f"[Browse merged pull requests on GitHub]({HISTORY_URL})",
+    ])
 
 
 def main() -> None:
