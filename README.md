@@ -26,6 +26,13 @@ Cybersecurity engineer working on detection engineering, threat hunting, and dig
 [Browse merged pull requests on GitHub](https://github.com/search?q=author%3Acristianchiriac+is%3Apr+is%3Amerged&type=pullrequests)
 <!-- END AUTO-GENERATED CONTRIBUTIONS -->
 
+<a href="https://github.com/stats-organization/github-stats-extended">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=cristianchiriac&amp;layout=compact&amp;hide_border=true&amp;bg_color=00000000&amp;disable_animations=true&amp;custom_title=Public%20repository%20languages&amp;title_color=EDF5FF&amp;text_color=B7C9DB">
+    <img src="https://github-stats-extended.vercel.app/api/top-langs?username=cristianchiriac&amp;layout=compact&amp;hide_border=true&amp;bg_color=00000000&amp;disable_animations=true&amp;custom_title=Public%20repository%20languages&amp;title_color=122338&amp;text_color=435A72" alt="Public repository languages for cristianchiriac">
+  </picture>
+</a>
+
 <!--
 Enable after cristianchiriac/github-stats publishes overview.svg on its generated branch.
 
